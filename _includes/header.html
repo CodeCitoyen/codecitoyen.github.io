@@ -1,29 +1,49 @@
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="header-content">
-                    <div class="header-content-inner">
-                        <h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-                        <a href="#download" class="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white">
-                        <div class="device">
-                            <div class="screen">
-                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                <img src="/img/EventNCC.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="button">
-                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class='contain-to-grid sticky transparent'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class="">
+        <h1>
+          <a href='{{site.url}}/index.html'>
+            La Nuit du Code Citoyen
+            <!-- <span>L.</span>avar -->
+          </a>
+        </h1>
+      </li>
+    </ul>
+    <div id="menu-toggler" class="right">
+      <a href='#'>
+        <i class="icon-arrows-hamburger-2"></i>
+      </a>
     </div>
-</header>
+    <section class='top-bar-section closed'>
+      <ul class='right'>
+
+        {% for item in site.data.nav %}
+          {% if item.section_id == page.section_id %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
+          {% endif %}
+
+          {% if item.children %}
+            <li class="has-dropdown {{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <ul class='dropdown'>
+                {% for child in item.children %}
+                  <li>
+                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="{{active_class}}">
+              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+
+      </ul>
+    </section>
+  </nav>
+</div>

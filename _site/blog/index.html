@@ -1,417 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Blog</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
 
-    <title>Blog</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/app.css">
+  <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,600,300" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/css/superslides.css"/>
+  <link rel="stylesheet" href="/css/slick-theme.css"/>
+  <link rel="stylesheet" href="/css/slick.css"/>
+  <link rel="stylesheet" href="/css/animate.css"/>
+  <link rel="stylesheet" href="/css/linea-styles.css"/>
+  <link rel="stylesheet" href="/css/linea-arrows-styles.css"/>
+  <link rel="stylesheet" href="/css/font-awesome.css"/>
+  <link rel="stylesheet" href="/css/chivo.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <link rel="stylesheet" href="/css/responsive.css"/>
 
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <script src="/bower_components/modernizr/modernizr.js"></script>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="/vendor/device-mockups/device-mockups.min.css">
-
-    <!-- Custom CSS
-    <link rel="stylesheet" href="css/main.css" type="text/css"> -->
-    <link href="/css/main.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <!-- Google ADS mobile block -->
-    
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9204963049240271",
-        enable_page_level_ads: true
-        });
-    </script>
-    
-
-    
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5644da281510c62f"></script>
-      
-
+  <link rel="canonical" href="http://localhost:4000/blog/">
+  <link rel="alternate" type="application/rss+xml" title="Nuit du Code Citoyen" href="http://localhost:4000/feed.xml">
 </head>
 
 
-<body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="/">Jeky New Age</a>
-        </div>
+  <body>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/funds">Help the project</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/blog/">Blog</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a class="outer-menu">menu</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+    <div class='contain-to-grid sticky transparent'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class="">
+        <h1>
+          <a href='http://localhost:4000/index.html'>
+            La Nuit du Code Citoyen
+            <!-- <span>L.</span>avar -->
+          </a>
+        </h1>
+      </li>
+    </ul>
+    <div id="menu-toggler" class="right">
+      <a href='#'>
+        <i class="icon-arrows-hamburger-2"></i>
+      </a>
     </div>
-    <!-- /.container-fluid -->
-</nav>
+    <section class='top-bar-section closed'>
+      <ul class='right'>
 
+        
+          
 
-  <!-- Post Header -->
-<header id="header" class="intro-header bg-primary text-center" style="background-image: url('/img/post-bg-01.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-heading">
-                <h1>Blog</h1>
+          
+            <li class="">
+              <a href="http://localhost:4000/index.html">Accueil</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="http://localhost:4000/participer/proposer-un-projet.html">Participer</a>
+              <ul class='dropdown'>
                 
-                <p class="meta">Posted by Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll on </p>
-                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
-              </div>
-            </div>
-        </div>
-    </div>
-</header>
-<hr>
-<!-- Post Content -->
-<article>
-    <div id="post" class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-		  
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- jekynewage google ads -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-9204963049240271"
-                    data-ad-slot="2973388149"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-		
-		<hr>
-
-				<div class="container-fluid index">
-  <div class="row index all-posts">
-
-    <h1 class="header author-header"></h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
-    <h2 class="header categories" itemprop="headline"><small>grouped by
-
-      <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="/posts-by-categories/">Categories</a></li>
-        </ul>
-      </div>
-
-    </small></h2>
-
-      
-      
-      
-
-      
-      <div class="col-md-12 content-panel articles">
-        <h2 id="2016-ref">2016</h2>
-        <ul style="list-style: none;">
-      
-
-          <li>
-            <hr>
-            <a href="/jekyll/2016/09/24/man-must-explore/"><img src="/img/post-bg-06.jpg" class="img-responsive" alt="Man must explore, and this is exploration at its greatest"></a>
-            <h3><a href="/jekyll/2016/09/24/man-must-explore/">Man must explore, and this is exploration at its greatest</a></h3>
-            <small class="hidden-xs">September 24, 2016</small>
-          </li>
-      
+                  <li>
+                    <a href="http://localhost:4000/participer/proposer-un-projet.html">Proposer un projet</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:4000/participer/organisateur.html">Organiser un événement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:4000/participer/participant.html">Participer</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
         
-    
 
-    
-      
-      
-
-      
-
-          <li>
-            <hr>
-            <a href="/jekyll/2016/09/18/i-believe/"><img src="/img/post-bg-05.jpg" class="img-responsive" alt="I believe every human has a finite number of heartbeats. I don't intend to waste any of mine."></a>
-            <h3><a href="/jekyll/2016/09/18/i-believe/">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</a></h3>
-            <small class="hidden-xs">September 18, 2016</small>
-          </li>
-      
-        
-    
-
-    
-      
-      
-
-      
-
-          <li>
-            <hr>
-            <a href="/webmarketing/2016/08/24/science-has-not-yet-mastered-prophecy/"><img src="/img/post-bg-04.jpg" class="img-responsive" alt="Science has not yet mastered prophecy"></a>
-            <h3><a href="/webmarketing/2016/08/24/science-has-not-yet-mastered-prophecy/">Science has not yet mastered prophecy</a></h3>
-            <small class="hidden-xs">August 24, 2016</small>
-          </li>
-      
-        
-    
-
-    
-      
-      
-
-      
-
-          <li>
-            <hr>
-            <a href="/jekyll/2016/07/08/failure-is-not-an-option/"><img src="/img/post-bg-03.jpg" class="img-responsive" alt="Failure is not an option"></a>
-            <h3><a href="/jekyll/2016/07/08/failure-is-not-an-option/">Failure is not an option</a></h3>
-            <small class="hidden-xs">July 8, 2016</small>
-          </li>
-      
-        
-    
-
-    
-      
-      
-
-      
-
-          <li>
-            <hr>
-            <a href="/start/bootstrap/2016/07/01/dreams/"><img src="/img/post-bg-02.jpg" class="img-responsive" alt="The dreams of yesterday are the hopes of today and the reality of tomorrow."></a>
-            <h3><a href="/start/bootstrap/2016/07/01/dreams/">The dreams of yesterday are the hopes of today and the reality of tomorrow.</a></h3>
-            <small class="hidden-xs">July 1, 2016</small>
-          </li>
-      
-        
-    
-
-    
-      
-      
-
-      
-
-          <li>
-            <hr>
-            <a href="/jekyll/2016/06/10/dinosaurs/"><img src="/img/post-bg-01.jpg" class="img-responsive" alt="Dinosaurs are extinct today"></a>
-            <h3><a href="/jekyll/2016/06/10/dinosaurs/">Dinosaurs are extinct today</a></h3>
-            <small class="hidden-xs">June 10, 2016</small>
-          </li>
-      
-        </ul>
-      </div>
-      
-
-    
-    </div>
-
-  </div>
+      </ul>
+    </section>
+  </nav>
+</div>
 
 
-                <hr>
-		    
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- jekynewage google ads -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-9204963049240271"
-                    data-ad-slot="2973388149"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
 
-                <ul class="pager">
-                    
-                    
-                </ul>
-
-            </div>
-        </div>
-    </div>
-</article>
-
-<hr>
-
-
-<article>
-  <div id="disqus" class="container">
+    <div class="full light-cyan white-light centered-text">
+  <div class="four spacing"></div>
+  <div class="section-title">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">Blog</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p>Know what we are doing and thinking</p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
 
-      <h2 class="section-heading">Leave a comment! We <i style="color:red"class="fa fa-heart"></i> it!</h2>
 
-      <script id="dsq-count-scr" src="//jeky-new-age.disqus.com/count.js" async></script>
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="large-6 columns">
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel/2016/04/06/beautiful-day.html"><img src="http://localhost:4000/images/@stock/post-7.jpg" alt="post"></a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel/2016/04/06/beautiful-day.html">beautiful day</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.</p>
+          <div class="spacing"></div>
+          <p><a href="/travel/2016/04/06/beautiful-day.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+    
+    
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel,/life/2016/04/06/new-way-new-life.html" class='two-images'>
+              <img src="http://localhost:4000/images/@stock/post-2.jpg" alt="post" class="left-image">
+              <img src="http://localhost:4000/images/@stock/post-3.jpg" alt="post" class="right-image">
+            </a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel,/life/2016/04/06/new-way-new-life.html">new way, new life</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel,</a>
+                  
+                      ,
+                  
+                
+                  <a href="#">Life</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices - today I choose to feel life, not to deny my humanity but embrace it.</p>
+          <div class="spacing"></div>
+          <p><a href="/travel,/life/2016/04/06/new-way-new-life.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+    
+    
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel/2016/04/06/new-way-new-air.html"><img src="http://localhost:4000/images/@stock/post-1.jpg" alt="post"></a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel/2016/04/06/new-way-new-air.html">new way, new air</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>To feel the freedom that comes from being able to continue to make mistakes and choices - today I choose to feel life, not to deny my humanity but embrace it.</p>
+          <div class="spacing"></div>
+          <p><a href="/travel/2016/04/06/new-way-new-air.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+    
+    
+  
+</div>
+<div class="large-6 columns">
+  
+    
+    
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel/2016/04/06/hello-there.html"><img src="http://localhost:4000/images/@stock/post-5.jpg" alt="post"></a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel/2016/04/06/hello-there.html">hello there</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>To feel the freedom that comes from being able to continue to make mistakes and choices.</p>
+          <div class="spacing"></div>
+          <p><a href="/travel/2016/04/06/hello-there.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+    
+    
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel/2016/04/06/new-way-new-move.html"><img src="http://localhost:4000/images/@stock/post-6.jpg" alt="post"></a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel/2016/04/06/new-way-new-move.html">new way, new move</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.</p>
+          <div class="spacing"></div>
+          <p><a href="/travel/2016/04/06/new-way-new-move.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+    
+    
+  
+    
+    
+      <div class="post alt">
+        
+          
+            <a href="/travel/2016/04/06/new-way-new-born.html"><img src="http://localhost:4000/images/@stock/post-4.jpg" alt="post"></a>
+          
+        
+        <div class="post-content">
+          <h3><a href="/travel/2016/04/06/new-way-new-born.html">new way, new born</a></h3>
+          <p class='info'>
+            
+              <span>
+                
+                  <a href="#">Travel</a>
+                  
+                
+              </span>
+              /
+            
+            <span>April 06, 2016</span>
+            /
+            <span><a href="#">2 Comments</a></span>
+          </p>
+          <p>Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain...</p>
+          <div class="spacing"></div>
+          <p><a href="/travel/2016/04/06/new-way-new-born.html" class="button tiny brown boxed">Read more</a></p>
+        </div>
+      </div>
+    
+  
+</div>
 
 
-      <div id="disqus_thread"></div>
-      <script>
-
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = ;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = ;; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//jeky-new-age.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+      
+        <div class="pager">
+          
+            
+              <a href="/blog/page2" class="older">Older Entries <i class="fa fa-angle-double-right"></i></a>
+            
+          
+          
+            <!-- <span class="newer">Newer Entries</span> -->
+          
+        </div>
+      
     </div>
   </div>
 </div>
-</article>
-
-<hr>
 
 
 
-
-
-  
-<section id="contact" class="contact bg-primary">
-    <div class="container">
-        <h2>We <i class="fa fa-heart"></i> new friends!</h2>
-        <ul class="list-inline list-social">
-            
-            <li class="social-twitter">
-                <a href="https://twitter.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-            </li>
-        
-            <li class="social-facebook">
-                <a href="https://facebook.com/lantoniotrento" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-            </li>
-        
-            <li class="social-google-plus">
-                <a href="https://plus.google.com/+AntoniotrentoIt" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-            </li>
-        
-        </ul>
-        <!-- <ul class="list-inline list-social">
-            <li class="social-twitter">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="social-facebook">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="social-google-plus">
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-            </li>
-        </ul> -->
+    <div class="full no-padding footer brown centered-text">
+  <div class="four spacing"></div>
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="socials">
+        <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+        <li><a href="#"><i class='fa fa-facebook'></i></a></li>
+        <li><a href="#"><i class='fa fa-linkedin'></i></a></li>
+        <li><a href="#"><i class='fa fa-dribbble'></i></a></li>
+        <li><a href="#"><i class='fa fa-behance'></i></a></li>
+      </ul>
+      <p>Copyright ©2015 Nuit du Code Citoyen.</p>
+      <p>All rights reserved.</p>
+      <div class="four spacing"></div>
+      <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Back to top</a></p>
     </div>
-</section>
-<footer>
-    <div class="container">
-        <p>&copy; 2016 theme by <a rel="nofollow" target="blank" href="https://startbootstrap.com/template-overviews/new-age/">Start Bootstrap</a> Built with <a target="_blank" rel="nofollow" href="https://jekyllrb.com/">Jekyll</a> by <a target="_blank" rel="nofollow" href="https://it.linkedin.com/in/antoniotrento">Antonio Trento</a> hosted on <a target="_blank" rel="nofollow" href="https://github.com/jekynewage/jekynewage.github.io">Github</a>. All Rights Reserved.</p>
-        <ul class="list-inline">
-            <li>
-                <a href="#">Privacy</a>
-            </li>
-            <li>
-                <a href="#">Terms</a>
-            </li>
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-        </ul>
-    </div>
-</footer>
+  </div>
+  <div class="spacing"></div>
+</div>
 
-  <!-- jQuery -->
-<script src="/js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript
-<script src="js/bootstrap.min.js"></script> -->
-
-<!-- Plugin JavaScript -->
-<script src="/js/jquery.easing.min.js"></script>
-<script src="/js/jquery.fittext.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/foundation/js/foundation.min.js"></script>
+<script src="/js/jquery.superslides.min.js"></script>
+<script src="/js/slick.min.js"></script>
 <script src="/js/wow.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="/js/creative.js"></script>
-
-<!-- jQuery
-<script src="/vendor/jquery/jquery.min.js"></script> -->
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-<!-- Theme JavaScript -->
-<script src="/js/new-age.min.js"></script>
+<script src="/js/jquery.validate.js"></script>
+<script src="/bower_components/countto/jquery.countTo.js"></script>
+<script src="/bower_components/appear/jquery.appear.js"></script>
+<script src="/js/app.js"></script>
 
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-86331249-1']);
-          _gaq.push(['_trackPageview']);
-  (function () {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-
-</body>
+  </body>
 
 </html>

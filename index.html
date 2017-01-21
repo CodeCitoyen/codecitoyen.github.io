@@ -1,3 +1,210 @@
 ---
-layout: front
+section_id: home
+slides:
+- layout: default
+  title: La Nuit du Code Citoyen
+  tagline: 3 jours pour accélérer des projets numériques citoyens
+  image: images/logo_transparentBg.png
+  background: images/160221hackathon.jpg
+- layout: alt
+  title: 3, 4 et 5 mars 2017
+  image_top: images/logo_transparentBg.png
+  image_bottom: images/@stock/arrows.png
+  background: images/table_bg_pic.jpg
+works_left:
+- title: Cooco fashion
+  link_to: portfolio-item.html
+  image: images/@stock/work-1.jpg
+  categories: Website, brand
+- title: Dear god
+  link_to: portfolio-item.html
+  image: images/@stock/work-20.jpg
+  categories: Website, print
+- title: Green choice
+  link_to: portfolio-item.html
+  image: images/@stock/work-22.jpg
+  categories: Website
+- title: Perfect bags
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-7.jpg
+  categories: Perfect bags
+works_right:
+- title: Dances App
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-3.jpg
+  categories: Website
+- title: Vintage chairs
+  link_to: portfolio-item.html
+  image: images/@stock/work-5.jpg
+  categories: Graphic, brand
+- title: Help Five
+  link_to: portfolio-item-2.html
+  image: images/@stock/work-6.jpg
+  categories: Photography
+- title: Brandbooks
+  link_to: portfolio-item.html
+  image: images/@stock/work-8.jpg
+  categories: Website, graphic
+
+milestones:
+- title: Heures
+  from: 0
+  to: 56
+- title: Villes
+  from: 0
+  to: 7
+- title: Pays
+  from: 0
+  to: 3
+- title: Projets
+  from: 0
+  to: 100
+
+principles_one:
+- title: Engagements
+  desc: Travailler sur des projets pertinents et des défis technologiques
+  icon: icon-basic-heart
+- title: Croisements
+  desc: Relier passionnés de technologie, designers, acteurs engagés et institutions
+  icon: icon-basic-flag2
+- title: Glocal
+  desc: Un événement global pensé au niveau local
+  icon: icon-basic-paperplane
+principles_two:
+- title: Accompagnement
+  desc: Assurer la continuité et le suivi des projets sur le long terme
+  icon: icon-basic-paperplane
+- title: Pédagogie
+  desc: Un événement ludique et pédagogique pour les participants
+  icon: icon-basic-paperplane
+- title: Ouverture
+  desc: Ouverture et diffusion auprès du public notamment à toutes les générations
+  icon: icon-basic-paperplane
+
+
 ---
+
+<div class="full no-padding">
+  <div id="slides" class="fullscreen">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <div class="row">
+              <div class="large-10 large-centered columns">
+                {% if slide.layout == 'default' %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image}});"></div>
+                  <div class="two spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                  <p>{{slide.tagline}}</p>
+                {% else %}
+                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image_top}});"></div>
+                  <!-- <div class="image-wrapper arrows" style="background-image: url({{site.url}}/{{slide.image_bottom}});"></div> -->
+                  <div class="three spacing"></div>
+                  <h1>{{slide.title}}</h1>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <img src="{{site.url}}/{{slide.background}}" alt="">
+        </div>
+      {% endfor %}
+    </div>
+    <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav>
+  </div>
+</div>
+
+<div class="full centered-text light-grey">
+  <div class="section-title small">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+
+        <div class="spacing"></div>
+        <h2>Un marathon d'innovation</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <p class="big-text">
+        La Nuit du Code Citoyen est un marathon d'innovation les 4 et 5 mars 2017 associant thématiques citoyennes et technologies avancées en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un programme d’accompagnement sur la durée.
+      </p>
+    </div>
+  </div>
+</div>
+
+{% include _milestones.html %}
+<div class="full light-grey centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Nos valeurs</h2>
+        <!-- <p>We have principles to do things</p> -->
+      </div>
+    </div>
+  </div>
+  {% include _values_row.html principles=page.principles_one %}
+  {% include _values_row.html principles=page.principles_two %}
+</div>
+
+
+<div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Intéressé ?</h2>
+      <div class="two spacing"></div>
+      <a href="{{site.url}}/participer/organisateur.html" class="button brown boxed">Organisateur</a>
+      <a href="{{site.url}}/participer/proposer-un-projet.html" class="button brown boxed">Porteur de projet</a>
+      <a href="{{site.url}}/participer/participant.html" class="button brown boxed">Participant</a>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
+
+<!-- <div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Recent works</h2>
+        <p>You will love we have done</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="gallery-left-section">
+        {% for work in page.works_left %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <div class="gallery-right-section">
+        {% for work in page.works_right %}
+          <div class="work-wrapper">
+            <a href="{{work.link_to}}" class="work">
+              <img src="{{site.url}}/{{work.image}}" alt="">
+              <div class="info">
+                <h3>{{work.title}}</h3>
+                <p>{{work.categories}}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div> -->

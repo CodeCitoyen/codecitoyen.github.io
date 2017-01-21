@@ -1,0 +1,15 @@
+<div class="full light-grey robot">
+  <div class="three spacing"></div>
+  <div class="row">
+    {% for milestone in page.milestones %}
+      <div class="large-3 columns ">
+        <div class="milestone centered-text">
+          <div class="number" style="color: #333" data-from="{{milestone.from}}" data-to="{{milestone.to}}"> </div>
+          <span>{{milestone.title}}</span>
+          <div class="spacing"></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="three spacing"></div>
+</div>

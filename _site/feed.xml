@@ -1,199 +1,293 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-18T18:18:32+01:00</updated><id>http://localhost:4000//</id><title type="html">Antonio Trento, theme Jeky New Age, the start Bootstrap themplate build for jekyll</title><subtitle>A jekyll template for landing pages, portfolio and blogging</subtitle><entry><title type="html">Man must explore, and this is exploration at its greatest</title><link href="http://localhost:4000/jekyll/2016/09/24/man-must-explore/" rel="alternate" type="text/html" title="Man must explore, and this is exploration at its greatest" /><published>2016-09-24T14:00:00+02:00</published><updated>2016-09-24T14:00:00+02:00</updated><id>http://localhost:4000/jekyll/2016/09/24/man-must-explore</id><content type="html" xml:base="http://localhost:4000/jekyll/2016/09/24/man-must-explore/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Antonio Trento</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.</title><link href="http://localhost:4000/jekyll/2016/09/18/i-believe/" rel="alternate" type="text/html" title="I believe every human has a finite number of heartbeats. I don't intend to waste any of mine." /><published>2016-09-18T14:00:00+02:00</published><updated>2016-09-18T14:00:00+02:00</updated><id>http://localhost:4000/jekyll/2016/09/18/i-believe</id><content type="html" xml:base="http://localhost:4000/jekyll/2016/09/18/i-believe/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Start Bootstrap</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">Science has not yet mastered prophecy</title><link href="http://localhost:4000/webmarketing/2016/08/24/science-has-not-yet-mastered-prophecy/" rel="alternate" type="text/html" title="Science has not yet mastered prophecy" /><published>2016-08-24T14:00:00+02:00</published><updated>2016-08-24T14:00:00+02:00</updated><id>http://localhost:4000/webmarketing/2016/08/24/science-has-not-yet-mastered-prophecy</id><content type="html" xml:base="http://localhost:4000/webmarketing/2016/08/24/science-has-not-yet-mastered-prophecy/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Antonio Trento</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">Failure is not an option</title><link href="http://localhost:4000/jekyll/2016/07/08/failure-is-not-an-option/" rel="alternate" type="text/html" title="Failure is not an option" /><published>2016-07-08T14:00:00+02:00</published><updated>2016-07-08T14:00:00+02:00</updated><id>http://localhost:4000/jekyll/2016/07/08/failure-is-not-an-option</id><content type="html" xml:base="http://localhost:4000/jekyll/2016/07/08/failure-is-not-an-option/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Antonio Trento</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">The dreams of yesterday are the hopes of today and the reality of tomorrow.</title><link href="http://localhost:4000/start/bootstrap/2016/07/01/dreams/" rel="alternate" type="text/html" title="The dreams of yesterday are the hopes of today and the reality of tomorrow." /><published>2016-07-01T14:00:00+02:00</published><updated>2016-07-01T14:00:00+02:00</updated><id>http://localhost:4000/start/bootstrap/2016/07/01/dreams</id><content type="html" xml:base="http://localhost:4000/start/bootstrap/2016/07/01/dreams/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Start Bootstrap</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry><entry><title type="html">Dinosaurs are extinct today</title><link href="http://localhost:4000/jekyll/2016/06/10/dinosaurs/" rel="alternate" type="text/html" title="Dinosaurs are extinct today" /><published>2016-06-10T14:00:00+02:00</published><updated>2016-06-10T14:00:00+02:00</updated><id>http://localhost:4000/jekyll/2016/06/10/dinosaurs</id><content type="html" xml:base="http://localhost:4000/jekyll/2016/06/10/dinosaurs/">&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; class=&quot;img-responsive&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;</content><author><name>Antonio Trento</name></author><summary type="html">Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</summary></entry></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuit du Code Citoyen</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 Jan 2017 16:15:24 +0100</pubDate>
+    <lastBuildDate>Sat, 21 Jan 2017 16:15:24 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>beautiful day</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:50:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/beautiful-day.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/beautiful-day.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>hello there</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:49:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/hello-there.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/hello-there.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>new way, new life</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:48:03 +0200</pubDate>
+        <link>http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</guid>
+        
+        
+        <category>travel,</category>
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>new way, new move</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:47:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/new-way-new-move.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-move.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>new way, new air</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:46:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/new-way-new-air.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-air.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>new way, new born</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:45:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/new-way-new-born.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-born.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>Sandy's new works</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 00:44:03 +0200</pubDate>
+        <link>http://localhost:4000/travel/2016/04/06/sandy-s-new-works.html</link>
+        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/sandy-s-new-works.html</guid>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>Smile when it happened</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2016/04/05/smile-when-it-happened.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/05/smile-when-it-happened.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New way, new life</title>
+        <description>&lt;p&gt;Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain… To feel the freedom that comes from being able to continue to make mistakes and choices.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint libero, qui quos ducimus nemo deleniti veniam, nesciunt labore dicta saepe, et sequi repellendus minima fugit quisquam explicabo ab? Fuga, quo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new command I give you: Love one another. As I have loved you, so you must love one another.&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friends can help each other. A true friend is someone who lets you have total freedom to be yourself - and especially to feel. Or, not feel. Whatever you happen to be feeling at the moment is fine with them. That’s what real love amounts to - letting a person be what he really is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat assumenda amet nobis, laboriosam vel deleniti reprehenderit, molestias obcaecati, debitis inventore corporis illo nostrum id totam ea hic distinctio praesentium adipisci!””&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2016/04/05/new-way-new-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/05/new-way-new-life.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Apr 2016 01:00:03 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2016/04/02/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/04/02/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
