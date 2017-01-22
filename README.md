@@ -8,9 +8,9 @@ Une fois que vous avez ruby d'installé sur votre machine :
 bundle Install
 ```
 
-Lancer le serveur
+Lancer le serveur (avec les spécificités de conf en local, qui se trouvent dans `_config.dev.yml`)
 ```bash
-jekyll serve
+jekyll serve --config _config.yml,_config.dev.yml
 ```
 
 Votre site est visible sur [localhost:4000](localhost:4000)
