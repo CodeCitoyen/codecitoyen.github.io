@@ -63,7 +63,7 @@
   background: #fff; }
 
 .full.robot {
-  background-image: url(../images/robot01.png);
+  background-image: url(../../images/robot01.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed; }
