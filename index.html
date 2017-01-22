@@ -4,14 +4,14 @@ slides:
 - layout: default
   title: La Nuit du Code Citoyen
   tagline: 3 jours pour accélérer des projets numériques citoyens
-  image: images/logo_transparentBg.png
-  background: images/160221hackathon.jpg
+  image: /assets/images/logo_transparentBg.png
+  background: /assets/images/160221hackathon.jpg
 - layout: alt
   title: 3, 4 et 5 mars 2017
-  image_top: images/logo_transparentBg.png
-  image_bottom: images/@stock/arrows.png
-  background: images/table_bg_pic.jpg
-works_left:
+  image_top: /assets/images/logo_transparentBg.png
+  image_bottom: /assets/images/@stock/arrows.png
+  background: /assets/images/table_bg_pic.jpg
+<!-- works_left:
 - title: Cooco fashion
   link_to: portfolio-item.html
   image: images/@stock/work-1.jpg
@@ -44,7 +44,7 @@ works_right:
 - title: Brandbooks
   link_to: portfolio-item.html
   image: images/@stock/work-8.jpg
-  categories: Website, graphic
+  categories: Website, graphic -->
 
 milestones:
 - title: Heures
@@ -93,12 +93,12 @@ principles_two:
             <div class="row">
               <div class="large-10 large-centered columns">
                 {% if slide.layout == 'default' %}
-                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}/{{slide.image}});"></div>
+                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}{{slide.image}});"></div>
                   <div class="two spacing"></div>
                   <h1>{{slide.title}}</h1>
                   <p>{{slide.tagline}}</p>
                 {% else %}
-                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}/{{slide.image_top}});"></div>
+                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}{{slide.image_top}});"></div>
                   <!-- <div class="image-wrapper arrows" style="background-image: url({{site.url}}/{{slide.image_bottom}});"></div> -->
                   <div class="three spacing"></div>
                   <h1>{{slide.title}}</h1>
@@ -106,7 +106,7 @@ principles_two:
               </div>
             </div>
           </div>
-          <img src="{{site.baseurl}}/{{slide.background}}" alt="">
+          <img src="{{site.baseurl}}{{slide.background}}" alt="">
         </div>
       {% endfor %}
     </div>
@@ -164,47 +164,3 @@ principles_two:
   </div>
   <div class="two spacing"></div>
 </div>
-
-
-<!-- <div class="full">
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Recent works</h2>
-        <p>You will love we have done</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns">
-      <div class="gallery-left-section">
-        {% for work in page.works_left %}
-          <div class="work-wrapper">
-            <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
-              <div class="info">
-                <h3>{{work.title}}</h3>
-                <p>{{work.categories}}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="large-6 columns">
-      <div class="gallery-right-section">
-        {% for work in page.works_right %}
-          <div class="work-wrapper">
-            <a href="{{work.link_to}}" class="work">
-              <img src="{{site.url}}/{{work.image}}" alt="">
-              <div class="info">
-                <h3>{{work.title}}</h3>
-                <p>{{work.categories}}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div> -->

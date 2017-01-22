@@ -1,16 +1,16 @@
 - name: Accueil
-  path: index.html
+  path: /index.html
   section_id: home
 - name: Participer
-  path: participer/proposer-un-projet.html
+  path: /participer/proposer-un-projet.html
   section_id: participate
   children:
     - name: Proposer un projet
-      path: participer/proposer-un-projet.html
+      path: /participer/proposer-un-projet.html
     - name: Organiser un événement
-      path: participer/organisateur.html
+      path: /participer/organisateur.html
     - name: Participer
-      path: participer/participant.html
+      path: /participer/participant.html
 # - name: Informations
 #   path: informations.html
 #   section_id: information
