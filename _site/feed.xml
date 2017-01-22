@@ -4,10 +4,10 @@
     <title>Nuit du Code Citoyen</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Jan 2017 17:23:57 +0100</pubDate>
-    <lastBuildDate>Sun, 22 Jan 2017 17:23:57 +0100</lastBuildDate>
+    <link>http://localhost:4000/NuitCodeCitoyen/</link>
+    <atom:link href="http://localhost:4000/NuitCodeCitoyen/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 22 Jan 2017 17:50:01 +0100</pubDate>
+    <lastBuildDate>Sun, 22 Jan 2017 17:50:01 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -31,8 +31,8 @@
 
 </description>
         <pubDate>Wed, 06 Apr 2016 00:50:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/beautiful-day.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/beautiful-day.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/beautiful-day.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/beautiful-day.html</guid>
         
         
         <category>travel</category>
@@ -59,8 +59,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:49:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/hello-there.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/hello-there.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/hello-there.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/hello-there.html</guid>
         
         
         <category>travel</category>
@@ -87,8 +87,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:48:03 +0200</pubDate>
-        <link>http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel,/life/2016/04/06/new-way-new-life.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel,/life/2016/04/06/new-way-new-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel,/life/2016/04/06/new-way-new-life.html</guid>
         
         
         <category>travel,</category>
@@ -117,8 +117,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:47:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/new-way-new-move.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-move.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-move.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-move.html</guid>
         
         
         <category>travel</category>
@@ -145,8 +145,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:46:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/new-way-new-air.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-air.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-air.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-air.html</guid>
         
         
         <category>travel</category>
@@ -173,8 +173,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:45:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/new-way-new-born.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/new-way-new-born.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-born.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/new-way-new-born.html</guid>
         
         
         <category>travel</category>
@@ -201,8 +201,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:44:03 +0200</pubDate>
-        <link>http://localhost:4000/travel/2016/04/06/sandy-s-new-works.html</link>
-        <guid isPermaLink="true">http://localhost:4000/travel/2016/04/06/sandy-s-new-works.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/sandy-s-new-works.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/travel/2016/04/06/sandy-s-new-works.html</guid>
         
         
         <category>travel</category>
@@ -229,8 +229,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/04/05/smile-when-it-happened.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/04/05/smile-when-it-happened.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/2016/04/05/smile-when-it-happened.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/2016/04/05/smile-when-it-happened.html</guid>
         
         
       </item>
@@ -255,8 +255,8 @@
 &lt;p&gt;Keep love in your heart. A life without it is like a sunless garden when the flowers are dead. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia! Animi et dolore ab ratione cupiditate totam error ducimus, reiciendis voluptatum praesentium dignissimos vitae nostrum autem similique unde minus deleniti.&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2016/04/05/new-way-new-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/04/05/new-way-new-life.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/2016/04/05/new-way-new-life.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/2016/04/05/new-way-new-life.html</guid>
         
         
       </item>
@@ -279,8 +279,8 @@
 
 </description>
         <pubDate>Sat, 02 Apr 2016 01:00:03 +0200</pubDate>
-        <link>http://localhost:4000/jekyll/update/2016/04/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/04/02/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/NuitCodeCitoyen/jekyll/update/2016/04/02/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/NuitCodeCitoyen/jekyll/update/2016/04/02/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

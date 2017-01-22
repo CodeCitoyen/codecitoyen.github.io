@@ -93,12 +93,12 @@ principles_two:
             <div class="row">
               <div class="large-10 large-centered columns">
                 {% if slide.layout == 'default' %}
-                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image}});"></div>
+                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}/{{slide.image}});"></div>
                   <div class="two spacing"></div>
                   <h1>{{slide.title}}</h1>
                   <p>{{slide.tagline}}</p>
                 {% else %}
-                  <div class="image-wrapper" style="background-image: url({{site.url}}/{{slide.image_top}});"></div>
+                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}/{{slide.image_top}});"></div>
                   <!-- <div class="image-wrapper arrows" style="background-image: url({{site.url}}/{{slide.image_bottom}});"></div> -->
                   <div class="three spacing"></div>
                   <h1>{{slide.title}}</h1>
@@ -106,7 +106,7 @@ principles_two:
               </div>
             </div>
           </div>
-          <img src="{{site.url}}/{{slide.background}}" alt="">
+          <img src="{{site.baseurl}}/{{slide.background}}" alt="">
         </div>
       {% endfor %}
     </div>
@@ -157,9 +157,9 @@ principles_two:
     <div class="large-12 columns">
       <h2>Intéressé ?</h2>
       <div class="two spacing"></div>
-      <a href="{{site.url}}/participer/organisateur.html" class="button brown boxed">Organisateur</a>
-      <a href="{{site.url}}/participer/proposer-un-projet.html" class="button brown boxed">Porteur de projet</a>
-      <a href="{{site.url}}/participer/participant.html" class="button brown boxed">Participant</a>
+      <a href="{{site.baseurl}}/participer/organisateur.html" class="button brown boxed">Organisateur</a>
+      <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="button brown boxed">Porteur de projet</a>
+      <a href="{{site.baseurl}}/participer/participant.html" class="button brown boxed">Participant</a>
     </div>
   </div>
   <div class="two spacing"></div>
