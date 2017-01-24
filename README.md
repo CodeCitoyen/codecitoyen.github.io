@@ -18,7 +18,7 @@ Votre site est visible sur [localhost:4000](localhost:4000)
 
 ## Composants
 
-Toutes les pages types issues du thème de base ([Lavar](http://preview.themeforest.net/item/lavar-portfolio-agency-jekyll-theme/full_screen_preview/15679321?ref=gundoel007)) se trouvent dnas le dossier `gabarits`.
+Toutes les pages types issues du thème de base ([Lavar](http://preview.themeforest.net/item/lavar-portfolio-agency-jekyll-theme/full_screen_preview/15679321?ref=gundoel007)) se trouvent dans le dossier `gabarits`.
 
 
 ## Resources
