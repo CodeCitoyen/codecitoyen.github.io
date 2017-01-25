@@ -89,6 +89,10 @@ principles_two:
 partenaires:
 - image: /assets/images/partenaires/ticket.png
 - image: /assets/images/partenaires/odn.png
+- image: /assets/images/partenaires/ticket.png
+- image: /assets/images/partenaires/odn.png
+- image: /assets/images/partenaires/ticket.png
+- image: /assets/images/partenaires/odn.png
 
 ---
 
@@ -178,10 +182,10 @@ partenaires:
 <div class="full light-grey no-padding">
   <div class="two spacing"></div>
   <div class='row'>
-    <div class='large-12 columns'>
+    <div class='large-12 columns text-center'>
       <div class='clients'>
         {% for partenaire in page.partenaires %}
-          <div><a href="#"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
+        <div class="partenaire"><a href="{{partenaire.url}}"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
         {% endfor %}
       </div>
     </div>
