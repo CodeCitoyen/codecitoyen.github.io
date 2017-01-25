@@ -11,16 +11,16 @@
       path: /participer/organisateur.html
     - name: Participer
       path: /participer/participant.html
-# - name: Villes
-  # path: /villes/proposer-un-projet.html
-  # section_id: cities
-  # children:
-    # - name: Paris
-      # path: /villes/Paris.html
-    # - name: Lille
-      # path: /villes/Lille.html
-    # - name: Lyon
-      # path: /villes/Lyon.html
+- name: Villes
+  # path: /villes/
+  section_id: cities
+  children:
+    - name: Paris
+      path: /villes/Paris.html
+    - name: Lille
+      path: /villes/Lille.html
+    - name: Lyon
+      path: /villes/Lyon.html
 # - name: Informations
 #   path: informations.html
 #   section_id: information
