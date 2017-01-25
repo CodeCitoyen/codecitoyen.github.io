@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   technologies avancées en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un 
   programme d’accompagnement sur la durée.
 url: https://codecitoyen.github.io # the base hostname & protocol for your site
-baseurl: "/NuitCodeCitoyen" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 twitter: lesbricodeurs
 github:  lesgeeksdudimanche
