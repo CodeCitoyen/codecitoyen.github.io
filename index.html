@@ -181,11 +181,7 @@ partenaires:
     <div class='large-12 columns'>
       <div class='clients'>
         {% for partenaire in page.partenaires %}
-        <center>
-          <ul class="list-inline clearfix">
-            <li><a href="#"><img alt="" src="{{site.url}}/{{partenaire.image}} class="img-responsive""></li>
-          </ul>
-        </center>
+          <div><a href="#"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
         {% endfor %}
       </div>
     </div>
