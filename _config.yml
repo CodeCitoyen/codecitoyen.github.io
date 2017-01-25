@@ -1,14 +1,18 @@
 # Global settings =============================================================
 title: Nuit du Code Citoyen
-email: contact@lesbricodeurs.fr
+email: salut@lesbricodeurs.fr
 description: > # this means to ignore newlines until "baseurl:"
   La Nuit du Code Citoyen est un marathon d'innovation les 4 et 5 mars 2017 associant thématiques citoyennes et 
   technologies avancées en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un 
   programme d’accompagnement sur la durée.
 url: http://lesbricodeurs.fr # the base hostname & protocol for your site
 baseurl: "/NuitCodeCitoyen" # the subpath of your site, e.g. /blog
-twitter_username: LesBricodeurs
-github_username:  lesgeeksdudimanche
+
+twitter: lesbricodeurs
+github:  lesgeeksdudimanche
+facebook: lesbricodeurs
+linkedin: bricodeur
+
 
 # Build settings ==============================================================
 markdown: kramdown
