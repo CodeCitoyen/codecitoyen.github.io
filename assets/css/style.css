@@ -63,7 +63,7 @@
   background: #fff; }
 
 .full.robot {
-  background-image: url(../../assets/images/robot01.png);
+  background-color: #F9DC5C;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed; }
@@ -95,7 +95,7 @@
   background-repeat: no-repeat;
   background-position: center top;
   // background-size: cover;
- 
+
 }
 
 .full.Lille {
