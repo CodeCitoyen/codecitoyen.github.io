@@ -14,11 +14,18 @@ Dans `_config.dev.yml` ne figurent **que** les éléments spécifiques au dével
 
 Lancer le serveur :
 ```bash
-jekyll serve --config _config.yml,_config.dev.yml
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
 
 Votre site est visible sur [localhost:4000](localhost:4000)
+
+### Troubleshooting
+
+"Your Ruby version is 2.3.1, but your Gemfile specified 2.3.3:"
+
+	sudo gem update
+
 
 
 ## Composants
