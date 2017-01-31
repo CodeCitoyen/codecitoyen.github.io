@@ -60,7 +60,7 @@ section_id: city
     {% for member in page.members %}
       <div class="large-3 columns">
         <div class="member">
-          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img src="{{member.avatar}}" alt="{{member.name}}">
           <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
           <div class="member-info">
             <h4>{{member.name}}</h4>
