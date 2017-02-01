@@ -1,55 +1,25 @@
 ---
+layout: default
 section_id: home
 slides:
-- layout: default
-  title: La Nuit du Code Citoyen
-  tagline: 3 jours pour accélérer des projets numériques citoyens
-  image: /assets/images/logo_transparentBg.png
-  background: /assets/images/hackathon.jpg
-- layout: alt
-  title: 3, 4 et 5 mars 2017
-  image_top: /assets/images/logo_transparentBg.png
-  image_bottom: /assets/images/@stock/arrows.png
-  background: /assets/images/table_bg_pic.jpg
+- title: 3, 4 et 5 mars 2017
+  text:  Accélérez des <span>projets numériques citoyens</span>
+  bg_color: "#3185FC"
+  image: assets/images/EventNCC_square.jpg
+- title: Porteur / participant / organisateur
+  text: A <span>vous</span> de jouer !
   button:
-    text: S'inscrire
-    url: /participer/participant.html
-
-
-<!-- works_left:
-- title: Cooco fashion
-  link_to: portfolio-item.html
-  image: images/@stock/work-1.jpg
-  categories: Website, brand
-- title: Dear god
-  link_to: portfolio-item.html
-  image: images/@stock/work-20.jpg
-  categories: Website, print
-- title: Green choice
-  link_to: portfolio-item.html
-  image: images/@stock/work-22.jpg
-  categories: Website
-- title: Perfect bags
-  link_to: portfolio-item-2.html
-  image: images/@stock/work-7.jpg
-  categories: Perfect bags
-works_right:
-- title: Dances App
-  link_to: portfolio-item-2.html
-  image: images/@stock/work-3.jpg
-  categories: Website
-- title: Vintage chairs
-  link_to: portfolio-item.html
-  image: images/@stock/work-5.jpg
-  categories: Graphic, brand
-- title: Help Five
-  link_to: portfolio-item-2.html
-  image: images/@stock/work-6.jpg
-  categories: Photography
-- title: Brandbooks
-  link_to: portfolio-item.html
-  image: images/@stock/work-8.jpg
-  categories: Website, graphic -->
+    text: Participer
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#F9DC5C"
+  image: images/@stock/half-4.jpg
+- title: 3 pays en simultané
+  text: Un événement <span>global</span>
+  button:
+    text: Voir les villes
+    url: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  bg_color: "#E84855"
+  image: assets/images/city.png
 
 milestones:
 - title: Heures
@@ -93,34 +63,25 @@ partenaires:
 - image: /assets/images/partenaires/odn.png
 - image: /assets/images/partenaires/ticket.png
 - image: /assets/images/partenaires/odn.png
-
 ---
 
-<div class="full no-padding">
-  <div id="slides" class="fullscreen">
+<div class="full no-padding" style="height: 100vh;">
+  <div id="slides">
     <div class="slides-container">
       {% for slide in page.slides %}
         <div class="slide">
           <div class="slide-info">
-            <div class="row">
-              <div class="large-10 large-centered columns">
-                {% if slide.layout == 'default' %}
-                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}{{slide.image}});"></div>
-                  <div class="two spacing"></div>
-                  <h1>{{slide.title}}</h1>
-                  <p>{{slide.tagline}}</p>
-                {% else %}
-                  <div class="image-wrapper" style="background-image: url({{site.baseurl}}{{slide.image_top}});"></div>
-                  <div class="three spacing"></div>
-                  <h1>{{slide.title}}</h1>
-                {% endif %}
-                  {% if slide.button.url %}
-                    <a href="{{ slide.button.url }}" class="button boxed brown">{{ slide.button.text }}</a>
-                  {% endif %}
-              </div>
-            </div>
+            <p>{{ slide.title }}</p>
+            <h1>{{ slide.text }}</h1>
+            <div class="three spacing"></div>
+            {% if slide.button %}
+              <a href="{{ slide.button.url }}" class="button boxed black">{{ slide.button.text }}</a>
+              {% endif %}
           </div>
-          <img src="{{site.baseurl}}{{slide.background}}" alt="">
+          <div class="slide-left" style="background-color: {{ slide.bg_color }};">
+          </div>
+          <div class="slide-right" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          </div>
         </div>
       {% endfor %}
     </div>
@@ -130,6 +91,11 @@ partenaires:
     </nav>
   </div>
 </div>
+
+
+
+
+
 
 <div class="full centered-text light-grey">
   <div class="section-title small">

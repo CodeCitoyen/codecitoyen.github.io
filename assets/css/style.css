@@ -89,11 +89,12 @@
   background-position: 20% top;
   background-attachment: fixed; }
 
-.full.happy {
+.full.contact {
   min-height: 60%;
-  background-image: url(../images/happy.jpeg);
+  background-color: #f9dc5c;
+  /*background-image: url(../images/happy.jpeg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center top;*/
   // background-size: cover;
 
 }

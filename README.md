@@ -30,8 +30,13 @@ Votre site est visible sur [localhost:4000](localhost:4000)
 
 ## Composants
 
+### Thème de base
+
 Toutes les pages types issues du thème de base ([Lavar](http://preview.themeforest.net/item/lavar-portfolio-agency-jekyll-theme/full_screen_preview/15679321?ref=gundoel007)) se trouvent dans le dossier `gabarits`.
 
+### Couleurs
+
+Palette de couleur de référence : [coolors.co](https://coolors.co/ffc857-f9dc5c-3185fc-223951-e84855)
 
 ## Resources
 
