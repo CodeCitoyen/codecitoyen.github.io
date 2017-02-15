@@ -12,7 +12,7 @@
     - name: Participer
       path: /participer/participant.html
 - name: Villes
-  # path: /villes/
+  path: /villes/
   section_id: cities
   children:
     - name: Paris
