@@ -28,9 +28,6 @@ section_id: pages
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 
 
 <script type="text/javascript">
@@ -51,7 +48,7 @@ scope.markersAfrica = [
        ]
 
 
-$.getScript("https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js",function(){
+$.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
   $.getScript("/assets/js/jquery-jvectormap-fr_regions_2016-mill.js",function(){
     
     $('#mapFrance').vectorMap({
@@ -132,7 +129,7 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvec
       },
       markers: scope.markersAfrica,
       onMarkerClick: function(event, index) {
-        window.location.href = scope.markers[index].url;
+        window.location.href = scope.markersAfrica[index].url;
       },
 
       series: {
@@ -146,8 +143,5 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvec
     
   }); // async Africa
 }); // async
-
-// $('.vectorMap').vectorMap('get','mapObject').updateSize();
-
 
 </script>
