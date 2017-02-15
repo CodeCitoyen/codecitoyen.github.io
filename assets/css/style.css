@@ -478,6 +478,12 @@ ul.socials {
   color: #AB8860;
   font-size: 14px; }
 
+.theme {
+  color: #33374C;
+  font-size: 16px; 
+  font-weight: bold;
+}
+
 /* contact */
 .contact-details {
   text-align: center;
@@ -1436,9 +1442,18 @@ form.update-form input.button:hover {
   float: left;
 }
 
-.partenaire {
-  margin: 0 2em;
+
+.clients {
 }
 
+.partenaire   {
+  
+  margin: auto 2em;
+
+}
+
+.logopartenaire {
 
 
+
+}

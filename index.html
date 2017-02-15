@@ -24,16 +24,37 @@ slides:
 milestones:
 - title: Heures
   from: 0
-  to: 48
+  to: 36
 - title: Villes
   from: 0
-  to: 7
+  to: 8
 - title: Pays
   from: 0
   to: 3
 - title: Projets
   from: 0
   to: 26
+
+testimonials_left:
+- theme: La démocratie numérique
+  content: 
+  avatar: assets/images/themes/democratie.jpg
+- theme: Les données du citoyen
+  content: 
+  avatar: assets/images/themes/donnees.jpg
+- theme: La ville accessible
+  content: 
+  avatar: assets/images/themes/accessible.jpg  
+testimonials_right:
+- theme: Les outils du collectif
+  content: 
+  avatar: assets/images/themes/collaboratif.jpg
+- theme: L’éducation au numérique
+  content: 
+  avatar: assets/images/themes/education.jpg
+- theme: L'air de nos campagnes
+  content: 
+  avatar: assets/images/themes/environnement.jpg
 
 principles_one:
 - title: Engagement
@@ -59,9 +80,11 @@ principles_two:
 partenaires:
 - image: /assets/images/partenaires/ticket.png
 - image: /assets/images/partenaires/odn.png
+- image: /assets/images/partenaires/epitech.jpg
 - image: /assets/images/partenaires/gamecampus.png
 - image: /assets/images/partenaires/ticket.png
 - image: /assets/images/partenaires/odn.png
+- image: /assets/images/partenaires/epitech.jpg
 - image: /assets/images/partenaires/gamecampus.png
 ---
 
@@ -117,6 +140,50 @@ partenaires:
 </div>
 
 {% include _milestones.html %}
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Thématiques</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="Theme">
+            </div>
+            <div class="small-9 columns">
+              <p class="theme">{{testimonial.theme}}</p>
+              <p>{{testimonial.content}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="Theme">
+            </div>
+            <div class="small-9 columns">
+              <p class="theme">{{testimonial.theme}}</p>
+              <p>{{testimonial.content}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 <div class="full light-grey centered-text">
   <div class="section-title">
     <div class="row">
@@ -149,9 +216,11 @@ partenaires:
   <div class="two spacing"></div>
   <div class='row'>
     <div class='large-12 columns text-center'>
-      <div class='clients'>
+      <div class='clients '>
         {% for partenaire in page.partenaires %}
-        <div class="partenaire"><a href="{{partenaire.url}}"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
+        <div class="partenaire">
+          <div class="logopartenaire"><a href="{{partenaire.url}}"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
+        </div>
 
         {% endfor %}
       </div>
