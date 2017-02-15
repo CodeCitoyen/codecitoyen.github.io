@@ -132,6 +132,15 @@
   background-attachment: fixed;
 }
 
+.full.Montpellier {
+  min-height: 60%;
+  background-image: url(../images/villes/Montpellier.jpg);
+  // background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  background-attachment: fixed;
+}
+
 .full.dark {
   background: #333; }
 

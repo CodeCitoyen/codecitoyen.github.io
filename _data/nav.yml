@@ -23,6 +23,8 @@
       path: /villes/lyon.html
     - name: Rennes
       path: /villes/rennes.html
+    - name: Montpellier
+      path: /villes/montpellier.html
 # - name: Informations
 #   path: informations.html
 #   section_id: information
