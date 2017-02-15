@@ -28,6 +28,11 @@ section_id: pages
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
+
 <script type="text/javascript">
 	
 	var scope = {};
@@ -46,8 +51,8 @@ scope.markersAfrica = [
        ]
 
 
-$.getScript("http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js",function(){
-  $.getScript("http://jvectormap.com/js/jquery-jvectormap-fr_regions_2016-mill.js",function(){
+$.getScript("https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.3/jquery-jvectormap.js",function(){
+  $.getScript("/assets/js/jquery-jvectormap-fr_regions_2016-mill.js",function(){
     
     $('#mapFrance').vectorMap({
       map: 'fr_regions_2016_mill',
@@ -94,7 +99,7 @@ $.getScript("http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js",function()
     
   }); // asyncFrance
 
-  $.getScript("http://jvectormap.com/js/jquery-jvectormap-africa-mill.js",function(){
+  $.getScript("/assets/js/jquery-jvectormap-africa-mill.js",function(){
     
     $('#mapAfrica').vectorMap({
       map: 'africa_mill',
