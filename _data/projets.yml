@@ -1,0 +1,21 @@
+- name: OceanisOpen
+  description: Capteur marin en science citoyenne pour la mesure de l'évolution des océans
+  lien: http://bit.ly/2mb0tzE
+  ville: Rennes
+- name : OpenBioblitz
+  description : Permettre par le numérique la contribution et la compréhension des citoyens pour le rassemblement des données de biodiversité lors d'un <a href="https://fr.wikipedia.org/wiki/BioBlitz">BioBlitz</a></li>
+  lien : 
+  ville: Rennes
+- name: Ambassad'air et capteur citoyen
+  url: http://gulliver.eu.org/capteurs_citoyens#lots_projet
+  description: Mesurer la qualité de l'air à l'aide de capteurs citoyens individuels, un enjeu majeur de santé publique. Avec l'association Gulliver.
+  ville: Rennes
+- name: ByodIT
+  url: http://bit.ly/ByodIT
+  description: Totem vivant et connecté incitant le dialogue et la prise de conscience sur les ressources de la biomasse des sols.   
+  ville: Rennes
+  technologies: Bacterie du sol, arduino, Ethereum, écologie
+- name: 
+  url: 
+  description:
+  ville:   
