@@ -15,7 +15,15 @@
   description: Totem vivant et connecté incitant le dialogue et la prise de conscience sur les ressources de la biomasse des sols.   
   ville: Rennes
   technologies: Bacterie du sol, arduino, Ethereum, écologie
-- name: 
+- name: Humanitech
+  url: https://www.kisskissbankbank.com/humanitech
+  description: Propulsons l'économie sociale & solidaire vers l'ère du numérique.
+  ville: Lille
+- name: Learnys
   url: 
-  description:
-  ville:   
+  description: Learnys est une plateforme collaborative et participative destinée à l'apprentissage pour tous !
+  ville: Lyon
+- name: DemocracyBox
+  url: 
+  description: 
+  ville: Paris
