@@ -2,7 +2,7 @@
 layout: default
 section_id: home
 slides:
-- title: 3, 4 et 5 mars 2017
+- title: 4 et 5 mars 2017
   text:  Accélérez des <span>projets numériques citoyens</span>
   bg_color: "#3185FC"
   image: assets/images/EventNCC_square.jpg
@@ -101,7 +101,7 @@ partenaires:
             <h1>{{ slide.text }}</h1>
             <div class="three spacing"></div>
             {% if slide.button %}
-              <a href="{{ slide.button.url }}" class="button boxed black">{{ slide.button.text }}</a>
+              <a href="{{ slide.button.url }}" class="button boxed large black">{{ slide.button.text }}</a>
               {% endif %}
           </div>
           <div class="slide-left" style="background-color: {{ slide.bg_color }};">
@@ -199,17 +199,35 @@ partenaires:
   {% include _values_row.html principles=page.principles_one %}
   {% include _values_row.html principles=page.principles_two %}
 </div>
+<!-- Alternative à affiner -->
+<!-- <div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Intéressé ?</h2>
+      <div class="two spacing"></div>
 
+      <div class="wrap-btn">
+        <label>S'inscrire'</label>
+        <a href="{{site.baseurl}}/participer/organisateur.html" class="inside-btn  brown boxed">Organisateur</a>
+        <a href="{{site.baseurl}}/participer/participant.html" class="inside-btn  dark boxed  ">Participant</a>
+        <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="inside-btn  black  boxed">Porteur de projet</a>
+      </div>
 
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+ -->
 <div class="full centered-text">
   <div class="two spacing"></div>
   <div class="row">
     <div class="large-12 columns">
       <h2>Intéressé ?</h2>
       <div class="two spacing"></div>
-      <a href="{{site.baseurl}}/participer/organisateur.html" class="button brown  boxed">Organisateur</a>
-      <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="button black boxed">Porteur de projet</a>
-      <a href="{{site.baseurl}}/participer/participant.html" class="button dark boxed">Participant</a>
+      <a href="{{site.baseurl}}/participer/organisateur.html" class="button brown large  boxed">Organisateur</a>
+      <a href="{{site.baseurl}}/participer/participant.html" class="button dark boxed large ">Participant</a>
+      <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="button black large boxed">Porteur de projet</a>
     </div>
   </div>
   <div class="two spacing"></div>
