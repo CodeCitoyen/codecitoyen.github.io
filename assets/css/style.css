@@ -1465,10 +1465,11 @@ form.update-form input.button:hover {
 }
 
 .logo-partenaire {
+  // height: 5rem;
 
 }
 
 .logo-partenaire-ville {
-  height: 3rem;
+  // height: 3rem;
 }
-g
+
