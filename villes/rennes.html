@@ -58,6 +58,11 @@ members:
   - name: twitter
     url: https://twitter.com/MatthieuBrient
 
+partenaires:
+- image: /assets/images/partenaires/insalan.png
+- image: /assets/images/partenaires/mce.png
+- image: /assets/images/partenaires/insalan.jpg
+- image: /assets/images/partenaires/mce.png
 
 ---
 
@@ -73,4 +78,24 @@ Un apéritif convivial multi communauté pour créer de nouvelles voies de colla
 
 <div class="typeform-widget" data-url="https://theovital.typeform.com/to/FIoKcJ" data-text="Inscription NCC Rennes (copy)" style="width:100%;height:80vh;"></div>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+
+
+
+<div class="full light-grey no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns text-center'>
+      <div class='clients '>
+        {% for partenaire in page.partenaires %}
+        <div class="partenaire">
+          <div class="logopartenaire"><a href="{{partenaire.url}}"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
 
