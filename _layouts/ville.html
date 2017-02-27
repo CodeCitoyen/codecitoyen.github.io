@@ -112,3 +112,20 @@ section_id: city
 </div>
 
 
+<div class="full moutarde no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns text-center'>
+      <div class='clients  '>
+        {% for partenaire in page.partenaires %}
+        <div class="partenaire ">
+          <div class=""><a href="{{partenaire.url}}"><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{site.url}}/{{partenaire.image}}"></a></div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+

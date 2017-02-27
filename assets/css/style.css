@@ -56,6 +56,15 @@
 .full.light-cyan {
   background: #dae9ec; }
 
+
+.full.moutarde{
+  background: #FFC857; }
+.full.bleuvif{
+  background: #3F8CFF; }
+
+
+
+
 .full.grey {
   background: #edebe7; }
 
@@ -1444,16 +1453,22 @@ form.update-form input.button:hover {
 
 
 .clients {
+
 }
 
 .partenaire   {
   
   margin: auto 2em;
+  // padding: 20%;
+  // height: 4rem;
 
 }
 
-.logopartenaire {
-
-
+.logo-partenaire {
 
 }
+
+.logo-partenaire-ville {
+  height: 3rem;
+}
+g

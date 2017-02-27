@@ -61,7 +61,7 @@ members:
 partenaires:
 - image: /assets/images/partenaires/insalan.png
 - image: /assets/images/partenaires/mce.png
-- image: /assets/images/partenaires/insalan.jpg
+- image: /assets/images/partenaires/insalan.png
 - image: /assets/images/partenaires/mce.png
 
 ---
@@ -81,21 +81,4 @@ Un apéritif convivial multi communauté pour créer de nouvelles voies de colla
 
 
 
-
-<div class="full light-grey no-padding">
-  <div class="two spacing"></div>
-  <div class='row'>
-    <div class='large-12 columns text-center'>
-      <div class='clients '>
-        {% for partenaire in page.partenaires %}
-        <div class="partenaire">
-          <div class="logopartenaire"><a href="{{partenaire.url}}"><img alt="" src="{{site.url}}/{{partenaire.image}}"></a></div>
-        </div>
-
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  <div class="two spacing"></div>
-</div>
 

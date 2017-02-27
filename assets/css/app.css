@@ -102,7 +102,7 @@ img {
   -moz-osx-font-smoothing: grayscale; }
 
 img {
-  display: inline-block;
+  display: inline-block ;
   vertical-align: middle; }
 
 textarea {
