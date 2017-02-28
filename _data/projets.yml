@@ -51,10 +51,6 @@
   url: http://opendemocracynow.net/wikidebat
   description: Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.
   ville: Paris
-- name: Wikidébats
-  url: http://opendemocracynow.net/wikidebat
-  description: Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.
-  ville: Paris
 - name: DemocracyOS
   url: http://opendemocracynow.net/democracyos
   description: plateforme de consultation en ligne dont l’objectif est de faciliter le débat et la recherche de consensus autour d’une proposition et d’aboutir à une prise de décision.
