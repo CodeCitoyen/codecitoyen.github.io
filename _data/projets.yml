@@ -4,7 +4,7 @@
   ville: Rennes
 - name : OpenBioblitz
   description : Permettre par le numérique la contribution et la compréhension des citoyens pour le rassemblement des données de biodiversité lors d'un <a href="https://fr.wikipedia.org/wiki/BioBlitz">BioBlitz</a></li>
-  lien : 
+  lien :
   ville: Rennes
 - name: Ambassad'air et capteur citoyen
   url: http://gulliver.eu.org/capteurs_citoyens#lots_projet
@@ -12,7 +12,7 @@
   ville: Rennes
 - name: ByodIT
   url: http://bit.ly/ByodIT
-  description: Totem vivant et connecté incitant le dialogue et la prise de conscience sur les ressources de la biomasse des sols.   
+  description: Totem vivant et connecté incitant le dialogue et la prise de conscience sur les ressources de la biomasse des sols.
   ville: Rennes
   technologies: Bacterie du sol, arduino, Ethereum, écologie
 - name: Humanitech
@@ -20,14 +20,50 @@
   description: Propulsons l'économie sociale & solidaire vers l'ère du numérique.
   ville: Lille
 - name: Learnys
-  url: 
+  url:
   description: Learnys est une plateforme collaborative et participative destinée à l'apprentissage pour tous !
   ville: Lyon
 - name: DemocracyBox
-  url: 
-  description: 
+  url: http://opendemocracynow.net/democracy_box
+  description: Outil numérique mobile de travail collaboratif citoyen —> des services utiles aux réunions publiques, au suivi du travail accompli en ateliers démocratiques, y compris en mode projet.
   ville: Paris
 - name: S(a)ONORAMA
   description: Emission d'audiobalades culturelles pour découvrir les quais de Saône à Lyon.
   url: http://lebelmasque.weebly.com/
   ville: Lyon
+- name: AgoraLabTV
+  url: http://opendemocracynow.net/agoralabtv
+  description: AgoraLabTV répond à l’envie des citoyens de prendre part au débat public en leur donnant les moyens de construire eux-mêmes des débats TV sur les sujets de leur choix.
+  ville: Paris
+- name: Charte éthique opengov
+  url: http://opendemocracynow.net/charte
+  description: L’objectif de cette charte est d’accompagner la démarche de gouvernement ouvert en renforçant la confiance dans les processus démocratiques mis en œuvre par des outils numériques.
+  ville: Paris
+- name: Grandma Votation
+  url: http://opendemocracynow.net/votation
+  description:
+  ville: Paris
+- name: Open Budget
+  url: http://opendemocracynow.net/openbudget
+  description: permet à tout un chacun de visualiser comment sont dépensés ses impôts par les collectivités, de s’exprimer simplement sur la répartition effectuée, de visualiser la moyenne des répartitions des autres citoyens.
+  ville: Paris
+- name: Wikidébats
+  url: http://opendemocracynow.net/wikidebat
+  description: Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.
+  ville: Paris
+- name: Wikidébats
+  url: http://opendemocracynow.net/wikidebat
+  description: Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.
+  ville: Paris
+- name: DemocracyOS
+  url: http://opendemocracynow.net/democracyos
+  description: plateforme de consultation en ligne dont l’objectif est de faciliter le débat et la recherche de consensus autour d’une proposition et d’aboutir à une prise de décision.
+  ville: Paris
+- name: DemocracyEarth
+  url: http://democracy.earth
+  description: plateforme de prise décision permettant la délégation de vote, interopérable avec une blockchain.
+  ville: Paris
+- name: Mavoix x Légilibre
+  url: https://github.com/Legilibre
+  description:
+  ville: Paris
