@@ -30,14 +30,15 @@ Votre site est visible sur [localhost:4000](localhost:4000)
 
 ## Composants
 
-### Thème de base
+### Modèle
 
 Toutes les pages types issues du thème de base ([Lavar](http://preview.themeforest.net/item/lavar-portfolio-agency-jekyll-theme/full_screen_preview/15679321?ref=gundoel007)) se trouvent dans le dossier `gabarits`.
 
-### Couleurs
+### Charte graphique
 
 Palette de couleur de référence : [coolors.co](https://coolors.co/ffc857-f9dc5c-3185fc-223951-e84855)
+Charte graphique complète : [invision](https://projects.invisionapp.com/boards/7334QZOJFRNTG#/5260452)
 
-## Resources
+## Ressources
 
 - Pour la configuration des liens sur des gh-pages : [Configuring Jekyll for User and Project GitHub Pages](http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/)
