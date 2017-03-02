@@ -150,6 +150,14 @@
   background-attachment: fixed;
 }
 
+.full.Tunis {
+  min-height: 60%;
+  background-image: url(../images/villes/Tunis.jpg);
+  background-repeat: no-repeat;
+  background-position: center 55%;
+  background-attachment: fixed;
+}
+
 .full.dark {
   background: #333; }
 
