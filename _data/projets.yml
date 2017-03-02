@@ -48,7 +48,7 @@
   description: permet à tout un chacun de visualiser comment sont dépensés ses impôts par les collectivités, de s’exprimer simplement sur la répartition effectuée, de visualiser la moyenne des répartitions des autres citoyens.
   ville: Paris
 - name: Wikidébats
-  url: http://opendemocracynow.net/wikidebat
+  url: http://opendemocracynow.net/wikidebats
   description: Pour ceux qui veulent se forger une opinion sur un sujet donné. Pour ceux qui cherchent à connaître les différentes positions d’un débat, sans passer des heures à rechercher des arguments éparpillés sur la toile.
   ville: Paris
 - name: DemocracyOS
