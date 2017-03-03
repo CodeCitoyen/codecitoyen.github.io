@@ -27,6 +27,8 @@
       path: /villes/montpellier.html
     - name: Tunis
       path: /villes/tunis.html
+    - name: Toulouse
+      path: /villes/toulouse.html
 # - name: Informations
 #   path: informations.html
 #   section_id: information
