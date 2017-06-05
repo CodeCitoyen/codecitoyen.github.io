@@ -19,18 +19,14 @@
   url: https://www.kisskissbankbank.com/humanitech
   description: Propulsons l'économie sociale & solidaire vers l'ère du numérique.
   ville: Lille
-- name: Learnys
-  url:
-  description: Learnys est une plateforme collaborative et participative destinée à l'apprentissage pour tous !
+- name: Démocratie et langoustine
+  url: https://codecitoyen.github.io/Demoscampi/#/
+  description: Jeu pédagogique autour de la démocratie et des modes de scrutins.
   ville: Lyon
 - name: DemocracyBox
   url: http://opendemocracynow.net/democracy_box
   description: Outil numérique mobile de travail collaboratif citoyen —> des services utiles aux réunions publiques, au suivi du travail accompli en ateliers démocratiques, y compris en mode projet.
   ville: Paris
-- name: S(a)ONORAMA
-  description: Emission d'audiobalades culturelles pour découvrir les quais de Saône à Lyon.
-  url: http://lebelmasque.weebly.com/
-  ville: Lyon
 - name: AgoraLabTV
   url: http://opendemocracynow.net/agoralabtv
   description: AgoraLabTV répond à l’envie des citoyens de prendre part au débat public en leur donnant les moyens de construire eux-mêmes des débats TV sur les sujets de leur choix.
@@ -64,6 +60,6 @@
   description:
   ville: Paris
 - name: Signothèque
-  url: 
+  url:
   description:
   ville: Toulouse
