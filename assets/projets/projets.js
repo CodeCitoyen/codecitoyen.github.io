@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 
   $.getJSON(api, function(data) {
 
-    console.log(data);
+    // console.log(data);
     var values = data.values;
 
     var html_content = "";
