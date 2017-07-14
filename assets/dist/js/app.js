@@ -254,7 +254,7 @@ jQuery(document).ready(function($) {
 
   var sheetId = "11iwRGQmwYH5m7UmXIKx5iwEXIYSbl9nXs52UsXEwVp4";
   var apiKey = "AIzaSyDHTKK0HTffzWftN-ApDsRfkEC3dFFYb7o";
-  var api = "https://content-sheets.googleapis.com/v4/spreadsheets/"+sheetId+"/values/A1:Z100?key="+apiKey;
+  var api = "https://content-sheets.googleapis.com/v4/spreadsheets/"+sheetId+"/values/E1:Z100?key="+apiKey;
 
   $.getJSON(api, function(data) {
 
@@ -265,23 +265,23 @@ jQuery(document).ready(function($) {
     var imgId = 0;
     var socials = [
       {
-        id: 11,
+        id: 7,
         name: "envelope"
       },
       {
-        id: 12,
+        id: 8,
         name: "facebook"
       },{
-        id: 13,
+        id: 9,
         name: "twitter"
       },{
-        id: 14,
+        id: 10,
         name: "github"
       },{
-        id: 15,
+        id: 11,
         name: "meetup"
       },{
-        id: 16,
+        id: 12,
         name: "slack"
       }
 
@@ -297,8 +297,8 @@ jQuery(document).ready(function($) {
         html_website = "";
         html_socials = "";
         html_content_bot = "";
-        if( values[i][9] ) {
-          imgId = values[i][9].substr(33);
+        if( values[i][5] ) {
+          imgId = values[i][5].substr(33);
         }
 
         var imageLink = "https://drive.google.com/uc?export=view&id="+imgId;
@@ -308,11 +308,11 @@ jQuery(document).ready(function($) {
             "<div class=\"project\">"+
               "<div class=\"project_text\" >"+
                 "<div class=\"project_title\">"+
-                  "<h2>"+values[i][4]+"</h2>"+
+                  "<h2>"+values[i][0]+"</h2>"+
                 "</div>"+
                 "<hr>"+
                 "<div class=\"project_description\">"+
-                  "<p>"+values[i][5]+"</p>"+
+                  "<p>"+values[i][1]+"</p>"+
                 "</div>"+
               "</div>"+
               "<div class=\"center\">"+
@@ -321,7 +321,7 @@ jQuery(document).ready(function($) {
               "<div class=\"website center\">";
 
 
-              if(values[i][10]) {
+              if(values[i][6]) {
                 html_website += "<a target=\"_blank\" href=\""+values[i][10]+"\">"+
                     "Site Web"+
                   "</a>";
