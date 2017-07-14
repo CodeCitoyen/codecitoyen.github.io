@@ -293,6 +293,10 @@ jQuery(document).ready(function($) {
     var html_content_bot = "";
     for (var i = 1; i < values.length; i++) {
 
+        if(!values[i][0]) {
+          break;
+        }
+
         html_content_top = "";
         html_website = "";
         html_socials = "";
