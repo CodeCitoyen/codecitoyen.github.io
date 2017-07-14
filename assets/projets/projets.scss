@@ -1,0 +1,236 @@
+@import "../scss/variables.scss";
+
+
+@font-face {
+     font-family: font-awesome;
+     src: url(../fonts/font-awesome.ttf);
+ }
+
+ #projets_container.row{
+   max-width: 100%;
+   width: 100%;
+   padding: 0;
+ }
+
+ // -- size project_container
+ $pcmob : 100;
+ $pcsm : 50;
+ $pcmd : 33.3333;
+ $pcbg : 25;
+ $pcmobpd : 1;
+ $pcsmpd : 2;
+ $pcmdpd : 3;
+ $pcbgpd : 2;
+ $titlepd : 5;
+ $descrpd : 7;
+ $prjpd : 2;
+
+ .center{
+   text-align: center;
+ }
+
+ .project_container{
+   display: inline-block;
+   float: left;
+   width: 50%;
+   margin-bottom: 40px;
+   height: 450px;
+
+   hr{
+     padding: 0;
+     margin: 0;
+   }
+
+   img{
+     max-height: 200px;
+     max-width: 300px;
+   }
+
+   .project_container{
+   }
+
+
+  .project_text{
+    height: 130px;
+
+    .project_description{
+      padding: percentage($descrpd/100);
+    }
+    .project_title {
+      padding: percentage($titlepd/100);
+    }
+
+    .project_title{
+      // background-color: $bgcolor1;
+    }
+    .project_title,
+    h2{
+      height: 55px;
+      font-size: 1rem;
+    }
+
+    h2, h2:hover{
+    padding: 0;
+    margin: 0;
+    }
+    p{
+      height: 100px;
+    }
+
+    h2 {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    h2:hover, p:hover{
+      height: auto;
+      background-color: rgb(242, 242, 242);
+      overflow: visible;
+      white-space: normal;
+      position: absolute;
+      width: auto;
+    }
+
+
+  $font-size: 12px;
+  $line-height: 1.4;
+  $lines-to-show: 3;
+
+
+    p {
+      display: block; /* Fallback for non-webkit */
+      display: -webkit-box;
+      height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+      // margin: 0 auto;
+      font-size: $font-size;
+      line-height: $line-height;
+      -webkit-line-clamp: $lines-to-show;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    @function maxwidth($a, $b, $c, $d){
+      @return percentage(($a - $b*2)*(1 - ($c*2)/100)*(1 - ($d*2)/100)/100);
+    }
+
+    @media (max-width: 768px) {
+      p{
+        max-width: percentage(1);
+      }
+      p:hover{
+        max-width: maxwidth($pcmob, $pcmobpd, $prjpd, $descrpd);
+      }
+      h2{
+        max-width: percentage(1);
+      }
+      h2:hover{
+        max-width: maxwidth($pcmob, $pcmobpd, $prjpd, $titlepd);
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      p{
+        max-width: percentage(1);
+      }
+      p:hover{
+        max-width: maxwidth($pcsm, $pcsmpd, $prjpd, $descrpd);
+      }
+      h2{
+        max-width: percentage(1);
+      }
+      h2:hover{
+        max-width: maxwidth($pcsm, $pcsmpd, $prjpd, $titlepd);
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px){
+      p{
+        max-width: percentage(1);
+      }
+      p:hover{
+        max-width: maxwidth($pcmd, $pcmdpd, $prjpd, $descrpd);
+      }
+      h2{
+        max-width: percentage(1);
+      }
+      h2:hover{
+        max-width: maxwidth($pcmd, $pcmdpd, $prjpd, $titlepd);
+      }
+    }
+
+    @media (min-width: 1200px) {
+      p{
+        max-width: percentage(1);
+      }
+      p:hover{
+        max-width: maxwidth($pcbg, $pcbgpd, $prjpd, $descrpd);
+      }
+      h2{
+        max-width: percentage(1);
+      }
+      h2:hover{
+        max-width: maxwidth($pcbg, $pcbgpd, $prjpd, $titlepd);
+      }
+    }
+
+
+  }
+}
+
+
+
+
+
+
+.project{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  padding: percentage($prjpd/100);
+  .website{
+    padding: 10px 15px 0px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .project_container{
+    width: percentage($pcmob/100);
+    padding: percentage($pcmobpd/100);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .project_container{
+  width: percentage($pcsm/100);
+  padding: percentage($pcsmpd/100);
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .project_container{
+  width: percentage($pcmd/100);
+  padding: percentage($pcmdpd/100);
+}
+}
+
+@media (min-width: 1200px) {
+  .project_container{
+  width: percentage($pcbg/100);
+  padding: percentage($pcbgpd/100);
+  }
+}
+
+.website{
+  height: 30px;
+}
+
+.socialNetworks{
+  display: flex;
+  height: 40px;
+}
+
+.socialNetworks>div{
+  padding: 10px;
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "codecitoyen",
+  "version": "1.0.0",
+  "description": "## Installation en local",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeCitoyen/codecitoyen.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeCitoyen/codecitoyen.github.io/issues"
+  },
+  "homepage": "https://github.com/CodeCitoyen/codecitoyen.github.io#readme"
+}
