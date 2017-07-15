@@ -258,7 +258,7 @@ jQuery(document).ready(function($) {
 
   $.getJSON(api, function(data) {
 
-    console.log(data);
+    // console.log(data);
     var values = data.values;
 
     var html_content = "";
@@ -326,7 +326,7 @@ jQuery(document).ready(function($) {
 
 
               if(values[i][6]) {
-                html_website += "<a target=\"_blank\" href=\""+values[i][10]+"\">"+
+                html_website += "<a target=\"_blank\" href=\""+values[i][6]+"\">"+
                     "Site Web"+
                   "</a>";
               }
