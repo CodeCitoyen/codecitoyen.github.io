@@ -1,0 +1,68 @@
+- city: Lyon
+  links:
+    - name: facebook
+      url: https://www.facebook.com/events/181481082380496/
+    - name: Communecter
+      url: https://www.communecter.org/#event.detail.id.58867ebc40bb4e5102ccf85c
+    - name: Meetup
+      url: https://www.meetup.com/fr-FR/Design-et-technologie-pour-projets-citoyens/events/240397570/
+    - name: En discuter
+      url: https://nuitcodecitoyen.rocket.chat/channel/general
+- city: Lille
+  links:
+    - name: Communecter
+      url: https://www.communecter.org/#event.detail.id.5880b6a040bb4e3849d8462f
+    - name: En discuter
+      url: https://nuitcodecitoyen.rocket.chat/channel/general
+- city: Montpellier
+  links:
+    - name: En discuter
+      url: https://nuitcodecitoyen.rocket.chat/channel/general
+- city: Paris
+  links:
+    - name: Site web
+      url: http://opendemocracynow.net/
+    - name: Inscription
+      url: https://www.eventbrite.fr/e/billets-hackathon-nuit-du-code-citoyen-paris-31635291007?aff=ehomecard
+    - name: Meetup
+      url: https://www.meetup.com/fr-FR/Open-Source-Politics/events/237074964/
+    - name: Rocket Chat
+      url: https://nuitcodecitoyen.rocket.chat/channel/orga-paris
+    - name: Communecter
+      url: https://www.communecter.org/#event.detail.id.588644a840bb4e8d78ccf84f
+    - name: Partenaires
+      url:
+    - name: Open Source Politics, Solutions Civic Tech
+      url: http://www.opensourcepolitics.eu/
+    - name: Democracy OS France, de meilleure décision ensemble
+      url: http://democracyos.eu/
+    - name: OGP Toolbox, boite à outils du gouvernement ouvert
+      url: https://ogptoolbox.org/fr/
+    - name: Open Law, le droit ouvert
+      url: http://openlaw.fr/
+    - name: République Citoyenne
+      url: http://republiquecitoyenne.fr/
+- city: Rennes
+  links:
+    - name: Lieu - MCE
+      url: http://www.openstreetmap.org/way/246633823
+    - name: facebook
+      url: https://www.facebook.com/events/179111149234346/
+    - name: En discuter
+      url: https://nuitcodecitoyen.rocket.chat/channel/rennes
+- city: Toulouse
+  links:
+    - name: En discuter
+      url: https://nuitcodecitoyen.rocket.chat/channel/orga-paris
+- city: Tunis
+  links:
+    - name: Lieu EL Space
+      url: https://goo.gl/maps/P3aBh8ZVJ2p
+    - name: Facebook
+      url: https://www.facebook.com/elspace.cw/
+    - name: Twitter
+      url: https://twitter.com/ELspace_CW/
+    - name: Meetup
+      url: "https://www.meetup.com/fr-FR/coworking-space-tunisia/events/238123375/?eventId=238123375&chapter_analytics_code=UA-76085701-1"
+    - name: Site EL Space
+      url: http://www.elspace.org

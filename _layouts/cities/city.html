@@ -1,0 +1,148 @@
+---
+layout: default
+section_id: city
+---
+
+<!-- city header -->
+<div class="full centered-text {{page.city_name}}">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 class="wow slideInUp">{{page.city_name}}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
+<!-- city description -->
+<div class="two spacing"></div>
+<div class="row">
+  <div class="large-8 columns">
+    <div class="project-intro">
+          <h2>{{page.city_name}}</h2>
+          <p>{{page.description }}</p>
+    </div>
+  </div>
+  <div class="large-4 columns">
+    <div class="project-intro">
+      <h4>Lieu</h4>
+      {% for event in site.data.events %}
+        {% if event.city == page.city_name %}
+
+          <p><span>{{event.location}}</span></p>
+
+        {% endif %}
+      {% endfor %}
+      <h4>Liens</h4>
+      {% for contact in site.data.contacts %}
+        {% if contact.city == page.city_name %}
+
+          {% for link in contact.links %}
+          <p><span><a href="{{link.url}}">{{link.name}}</a></span></p>
+          {% endfor %}
+
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+
+
+<div class="full">
+  <div class="row">
+    <div class="large-9 large-centered columns">
+      {{ page.content | markdownify | where:"lang", page.lang}}
+    </div>
+  </div>
+</div>
+
+<!-- Projets -->
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Les Projets</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+   <div class="large-9 large-centered columns">
+      <ul>
+      {% for projet in site.data.projets %}
+        {% if projet.ville == page.city_name %}
+
+          <li><a href="{{projet.url}}">{{projet.name}}</a>: {{projet.description}}
+          <a href="/participer/participant.html"><span class="fa fa-plus"></span>Rejoindre </li>
+
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- team -->
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>L'équipe</h2>
+        <!-- <p>We are happy to work together</p> -->
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in site.data.members %}
+      {% if member.ville == page.city_name %}
+
+      <div class="large-3 columns">
+        <div class="member">
+          <img src="{{member.avatar}}" alt="{{member.name}}">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+<div class="full moutarde no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns text-center'>
+      <div class='clients  '>
+        {% for partenaire in site.data.partenaires %}
+          {% if partenaire.ville == page.city_name %}
+
+          <div class="partenaire ">
+            <div class=""><a href="{{partenaire.url}}"><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{site.url}}/{{partenaire.image}}"></a></div>
+          </div>
+
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>

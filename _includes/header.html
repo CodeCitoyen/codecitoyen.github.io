@@ -3,10 +3,17 @@
     <ul class='title-area'>
       <li class="">
         <h1>
-          <a href='{{site.baseurl}}/index.html'>
-            La Nuit du Code Citoyen
-            <!-- <span>L.</span>avar -->
-          </a>
+
+          {% if page.lang == "en" %}
+            <a href='{{site.baseurl}}/home.html'>
+              Civic Tech Night {{site.baseurl}}
+            </a>
+          {% else %}
+            <a href='{{site.baseurl}}/index.html'>
+              La Nuit du Code Citoyen
+            </a>
+          {% endif %}
+
         </h1>
       </li>
     </ul>
@@ -18,6 +25,9 @@
     <section class='top-bar-section closed'>
       <ul class='right'>
 
+
+
+
         {% for item in site.data.nav %}
           {% if item.section_id == page.section_id %}
             {% assign active_class = "active" %}
@@ -27,21 +37,41 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.baseurl}}{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.baseurl}}/{{page.lang}}/{{ item.path }}">{{ item.name[page.lang] }} </a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.baseurl}}{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.baseurl}}/{{ item.path }}{{page.lang}}/{{ child.path }}">
+                      {% if child.name.en %}
+                        {{ child.name[page.lang] }}
+                      {% else %}
+                        {{ child.name }}
+                      {% endif %}
+
+                    </a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.baseurl}}{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.baseurl}}/{{page.lang}}/{{ item.path }}">{{ item.name[page.lang] }}</a>
             </li>
           {% endif %}
         {% endfor %}
+
+        <li class="has-dropdown">
+          <a href="#">lang</a>
+          <ul class="dropdown">
+            {% assign temp_pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+            {% for temp_page in temp_pages %}
+            <li>
+              <a href="{{ temp_page.url }}" class="{{ temp_page.lang }}">{{ temp_page.lang }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </li>
 
       </ul>
     </section>
