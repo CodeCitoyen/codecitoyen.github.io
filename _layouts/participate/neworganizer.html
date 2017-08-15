@@ -1,6 +1,5 @@
 ---
 layout: default
-section_id: pages
 ---
 
 <div class="full light-grey centered-text ">
@@ -8,14 +7,14 @@ section_id: pages
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h1 class="wow slideInUp">Organisateur</h1>
+        <h1 class="wow slideInUp">{{site.data.translations.organizer[page.lang]}}</h1>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="medium-9 medium-centered columns">
       <div class="header-quote">
-        <p>Vous souhaitez organiser une Nuit du Code dans votre ville ?</p>
+        <p>{{ page.content | markdownify }}</p>
       </div>
     </div>
   </div>

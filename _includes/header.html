@@ -37,7 +37,15 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.baseurl}}/{{page.lang}}/{{ item.path }}">{{ item.name[page.lang] }} </a>
+
+              <a href="
+              {% if item.path == 'participer/' %}
+                {{site.baseurl}}/{{ item.path }}{{page.lang}}/proposer-un-projet
+              {% else %}
+                {{site.baseurl}}/{{page.lang}}/{{ item.path }}
+              {% endif %}
+
+              "> {{ item.name[page.lang] }} </a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>

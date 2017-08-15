@@ -34,7 +34,7 @@ section_id: city
   </div>
   <div class="large-4 columns">
     <div class="project-intro">
-      <h4>Lieu</h4>
+      <h4>{{site.data.translations.location[page.lang]}}</h4>
       {% for event in site.data.events %}
         {% if event.city == page.city_name %}
 
@@ -42,7 +42,7 @@ section_id: city
 
         {% endif %}
       {% endfor %}
-      <h4>Liens</h4>
+      <h4>{{site.data.translations.links[page.lang]}}</h4>
       {% for contact in site.data.contacts %}
         {% if contact.city == page.city_name %}
 
@@ -62,7 +62,7 @@ section_id: city
 <div class="full">
   <div class="row">
     <div class="large-9 large-centered columns">
-      {{ page.content | markdownify | where:"lang", page.lang}}
+      {{ page.content | markdownify }}
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ section_id: city
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h2>Les Projets</h2>
+        <h2>{{site.data.translations.projects[page.lang]}}</h2>
       </div>
     </div>
   </div>
@@ -97,14 +97,14 @@ section_id: city
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h2>L'équipe</h2>
+        <h2>{{site.data.translations.team[page.lang]}}</h2>
         <!-- <p>We are happy to work together</p> -->
       </div>
     </div>
   </div>
   <div class="row">
     {% for member in site.data.members %}
-      {% if member.ville == page.city_name %}
+      {% if member.city == page.city_name %}
 
       <div class="large-3 columns">
         <div class="member">
@@ -132,12 +132,16 @@ section_id: city
   <div class='row'>
     <div class='large-12 columns text-center'>
       <div class='clients  '>
-        {% for partenaire in site.data.partenaires %}
-          {% if partenaire.ville == page.city_name %}
+        {% for item in site.data.partenaires %}
+          {% if item.city == page.city_name %}
+
+          {% for partenaire in item.partenaires %}
 
           <div class="partenaire ">
             <div class=""><a href="{{partenaire.url}}"><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{site.url}}/{{partenaire.image}}"></a></div>
           </div>
+          {% endfor %}
+
 
           {% endif %}
         {% endfor %}

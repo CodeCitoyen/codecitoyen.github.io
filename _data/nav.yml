@@ -1,21 +1,21 @@
 - name:
     fr : Participer
     en : Participate
-  path: participer/proposer-un-projet.html
+  path: participer/
   section_id: participate
   children:
     - name:
         fr : Proposer un projet
         en : Propose a project
-      path: participer/proposer-un-projet.html
+      path: proposer-un-projet
     - name:
         fr : Organiser un événement
         en : Organise an event
-      path: participer/organisateur.html
+      path: organisateur
     - name:
         fr : Participer
         en : Participate
-      path: participer/participant.html
+      path: participant
 - name:
     fr : Villes
     en : Cities
@@ -51,12 +51,12 @@
 - name:
     fr : Contact
     en : Contact
-  path: /contact.html
+  path: contact
   section_id: contact
 - name:
     fr : Projets
     en : Projects
-  path: /en/projects.html
+  path: projects
   section_id: projets
 # - name: Blog
 #   path: blog.html

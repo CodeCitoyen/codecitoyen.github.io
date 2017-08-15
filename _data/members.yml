@@ -1,5 +1,5 @@
 - name: Xavier Lavayssière
-  ville: Lyon
+  city: Lyon
   position: Organisateur
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -7,12 +7,12 @@
   - name: envelope
     url: "mailto:xavier@bricodeur.com"
 - name: Claudia Rinzivillo
-  ville: Lyon
+  city: Lyon
   position: Organisatrice / Partenariat
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
 - name: Samuel Eyre
-  ville: Lyon
+  city: Lyon
   position: Organisateur / Accompagnement des projets
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -20,22 +20,22 @@
   - name: envelope
     url: "mailto:samuel@lesbricodeurs.fr"
 - name: Anys Mechkar
-  ville: Lyon
+  city: Lyon
   position: Organisateur / Designer
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
 - name: Anne-claire Sanz
-  ville: Lyon
+  city: Lyon
   position: Communication / Designer
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
 - name: David Faveris
-  ville: Lyon
+  city: Lyon
   position: Organisateur / Developpeur
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
 - name: Thibaut Poullain
-  ville: Lille
+  city: Lille
   position: Ingé Developpeur & Energéticien
   avatar: /assets/images/default_avatar.png
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -43,7 +43,7 @@
   - name: envelope
     url: "mailto:thibaut.poullain@ydrazil.fr"
 - name: Amaury Van Espen
-  ville: Lille
+  city: Lille
   position: de la prospective vers de la transmission
   avatar: /assets/images/default_avatar.png
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -51,7 +51,7 @@
   - name: envelope
     url: "mailto:vanespen.amaury@gmail.com"
 - name: Nicolas Ameux
-  ville: Lille
+  city: Lille
   position: museomix, gérant de Maison Folie (Lomme)
   avatar: /assets/images/default_avatar.png
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -59,7 +59,7 @@
   - name: envelope
     url: "mailto:n.ammeux@gmail.com"
 - name: Julien Lecaille
-  ville: Lille
+  city: Lille
   position: élu, assemblée des communs
   avatar: /assets/images/default_avatar.png
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -67,7 +67,7 @@
   - name: envelope
     url: "mailto:julien.lecaille@gmail.com"
 - name: Tiphaine Dejonge
-  ville: Lille
+  city: Lille
   position: design de services
   avatar: /assets/images/default_avatar.png
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -75,25 +75,25 @@
   - name: envelope
     url: "mailto:tiphaine.dejonge@maalai.fr"
 - name: Myriam Monneraud
-  ville: Montpellier
+  city: Montpellier
   position: Happy orga
   avatar: /assets/images/equipe/happyOrga2.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
   socials:
   - name: envelope
     url: mailto:contact.gamecampus@gmail.com
-- name: Virgile Deville
+- name: Virgile Decity
   position: Gentil organisateur
-  ville: Paris
+  city: Paris
   avatar: /assets/images/equipe/virgile.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
   socials:
   - name: envelope
     url: mailto:virgile@opensourcepolitics.eu
   - name: twitter
-    url: https://twitter.com/VirgileDeville
+    url: https://twitter.com/VirgileDecity
 - name: Valentin Chaput
-  ville: Paris
+  city: Paris
   position: Gentil organisateur
   avatar: /assets/images/equipe/valentin.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -103,7 +103,7 @@
   - name: twitter
     url: https://twitter.com/ValentinChaput
 - name: Paul Richardet
-  ville: Paris
+  city: Paris
   position: Gentil organisateur
   avatar: /assets/images/equipe/paul-richardet.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -113,7 +113,7 @@
   - name: twitter
     url: https://twitter.com/PaulRichardet
 - name: Caroline Corbal
-  ville: Paris
+  city: Paris
   position: Gentille organisatrice
   avatar: /assets/images/equipe/caroline.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -123,7 +123,7 @@
   - name: twitter
     url: https://twitter.com/CaroCorbal
 - name: Noé Jacomet
-  ville: Paris
+  city: Paris
   position: Gentil organisateur
   avatar: /assets/images/equipe/noe.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
@@ -133,7 +133,7 @@
   - name: twitter
     url: https://twitter.com/NoiJcm
 - name: Pierre-Louis Rolle
-  ville: Paris
+  city: Paris
   position: Gentil organisateur
   avatar: /assets/images/equipe/pierre-louis.jpg
   avatar_hover: /assets/images/equipe/happyOrga.jpg
