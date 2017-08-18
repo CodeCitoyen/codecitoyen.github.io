@@ -251,7 +251,6 @@ jQuery(document).ready(function($) {
 
 });
 jQuery(document).ready(function($) {
-
   var sheetId = "11iwRGQmwYH5m7UmXIKx5iwEXIYSbl9nXs52UsXEwVp4";
   var apiKey = "AIzaSyDHTKK0HTffzWftN-ApDsRfkEC3dFFYb7o";
   var api = "https://content-sheets.googleapis.com/v4/spreadsheets/"+sheetId+"/values/E1:Z100?key="+apiKey;
@@ -266,32 +265,43 @@ jQuery(document).ready(function($) {
     var socials = [
       {
         id: 7,
-        name: "envelope"
+        name: "envelope",
+        title: "Cliquez moi pour me copier !"
       },
       {
         id: 8,
-        name: "facebook"
+        name: "facebook",
+        title: "facebook"
       },{
         id: 9,
-        name: "twitter"
+        name: "twitter",
+        title: "twitter"
       },{
         id: 10,
-        name: "github"
+        name: "github",
+        title: "github"
       },{
         id: 11,
-        name: "meetup"
+        name: "meetup",
+        title: "meetup"
       },{
         id: 12,
-        name: "slack"
+        name: "slack",
+        title: "slack"
       }
 
     ];
+
 
     var html_content_top = "";
     var html_website = "";
     var html_socials = "";
     var html_content_bot = "";
-    for (var i = 1; i < values.length; i++) {
+
+    values.shift();
+    values = shuffle(values);
+
+    for (var i = 0; i < values.length; i++) {
 
         if(!values[i][0]) {
           break;
@@ -335,13 +345,14 @@ jQuery(document).ready(function($) {
               html_socials += "<div class=\"socialNetworks\">";
               for (var j = 0; j < socials.length; j++) {
                 if(values[i][socials[j].id]) {
-                  html_socials += "<div class=\""+socials[j].name+"\">"+
-                                    "<a target=\"_blank\" href=\""+values[i][socials[j].id]+"\">"+
+                  html_socials += "<div class=\""+socials[j].name+"\" >"+
+                                    "<a title=\""+socials[j].title+"\"  target=\"_blank\" href=\""+values[i][socials[j].id]+"\">"+
                                       "<i class=\"fa fa-"+socials[j].name+"\" aria-hidden=\"true\"></i>"+
                                     "</a>"+
                                   "</div>";
                 }
               }
+
               html_socials += "</div>";
 
           html_content_bot += "</div>"+
@@ -352,6 +363,31 @@ jQuery(document).ready(function($) {
     }
     $("#projets_container").html(html_content);
 
+    $(".envelope a").click(function(e){
+      e.preventDefault();
+      var $temp = $("<input>");
+     $("body").append($temp);
+     $temp.val($(this).attr("href")).select();
+     document.execCommand("copy");
+     $temp.remove();
+    });
+
+
   });
+
+
+  function shuffle(a) {
+      var j, x, i;
+      for (i = a.length; i; i--) {
+          j = Math.floor(Math.random() * i);
+          x = a[i - 1];
+          a[i - 1] = a[j];
+          a[j] = x;
+      }
+      return a;
+
+  }
+
+
 
 });
