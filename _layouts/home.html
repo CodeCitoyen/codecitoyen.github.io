@@ -1,0 +1,177 @@
+---
+layout: default
+---
+
+
+<div class="full no-padding" style="height: 100vh;">
+  <div id="slides">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <p>{{ slide.title }}</p>
+            <h1>{{ slide.text }}</h1>
+            <div class="three spacing"></div>
+            {% if slide.button %}
+              <a href="{{ slide.button.url }}" class="button boxed large black">{{ slide.button.text }}</a>
+              {% endif %}
+          </div>
+          <div class="slide-left" style="background-color: {{ slide.bg_color }};">
+          </div>
+          <div class="slide-right" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="full centered-text light-grey">
+  <div class="section-title small">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+
+        <div class="spacing"></div>
+        <h2>{{site.data.translations.marathon[page.lang]}}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <p class="big-text">
+        {{site.data.translations.homedescription[page.lang]}}
+      </p>
+    </div>
+  </div>
+</div>
+
+{% include _milestones.html %}
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>{{site.data.translations.themes[page.lang]}}</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="Theme">
+            </div>
+            <div class="small-9 columns">
+              <p class="theme">{{testimonial.theme}}</p>
+              <p>{{testimonial.content}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" alt="Theme">
+            </div>
+            <div class="small-9 columns">
+              <p class="theme">{{testimonial.theme}}</p>
+              <p>{{testimonial.content}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="full light-grey centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>{{site.data.translations.ourvalues[page.lang]}}</h2>
+        <!-- <p>We have principles to do things</p> -->
+      </div>
+    </div>
+  </div>
+  {% include _values_row.html principles=page.principles_one %}
+  {% include _values_row.html principles=page.principles_two %}
+</div>
+<!-- Alternative à affiner -->
+<!-- <div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Intéressé ?</h2>
+      <div class="two spacing"></div>
+
+      <div class="wrap-btn">
+        <label>S'inscrire'</label>
+        <a href="{{site.baseurl}}/participer/organisateur.html" class="inside-btn  brown boxed">Organisateur</a>
+        <a href="{{site.baseurl}}/participer/participant.html" class="inside-btn  dark boxed  ">Participant</a>
+        <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="inside-btn  black  boxed">Porteur de projet</a>
+      </div>
+
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+ -->
+<div class="full centered-text">
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>{{site.data.translations.interested[page.lang]}}</h2>
+      <div class="two spacing"></div>
+      <a href="{{site.baseurl}}/participer/organisateur.html" class="button brown large  boxed">{{site.data.translations.organizer[page.lang]}}</a>
+      <a href="{{site.baseurl}}/participer/participant.html" class="button dark boxed large ">{{site.data.translations.participant[page.lang]}}</a>
+      <a href="{{site.baseurl}}/participer/proposer-un-projet.html" class="button black large boxed">{{site.data.translations.projectleader[page.lang]}}</a>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
+<div class="full moutarde no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns text-center'>
+      <div class='clients '>
+        {% assign filteredPartners = array[1] %}
+
+        {% for item in site.data.partenaires %}
+          {% for partenaire in item.partenaires %}
+            {% unless filteredPartners contains partenaire.image %}
+                {% capture filteredPartners %}{{ filteredPartners }}|{{ partenaire.image }}{% endcapture %}
+            {% endunless %}
+          {% endfor %}
+        {% endfor %}
+
+        {% assign filteredPartners = filteredPartners | split: '|' | sort %}
+
+        {% for image in filteredPartners  %}
+          {% if image != "" %}
+          <div class="partenaire">
+            <div class=""><img class="logo-partenaire" alt="" src="{{site.url}}/{{image}}"></div>
+          </div>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>

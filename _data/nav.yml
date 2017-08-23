@@ -1,34 +1,41 @@
-- name: Accueil
-  path: /index.html
-  section_id: home
-- name: Participer
-  path: /participer/proposer-un-projet.html
+- name:
+    fr : Participer
+    en : Participate
+  path: participer/
   section_id: participate
   children:
-    - name: Proposer un projet
-      path: /participer/proposer-un-projet.html
-    - name: Organiser un événement
-      path: /participer/organisateur.html
-    - name: Participer
-      path: /participer/participant.html
-- name: Villes
-  path: /villes/
+    - name:
+        fr : Proposer un projet
+        en : Propose a project
+      path: proposer-un-projet
+    - name:
+        fr : Organiser un événement
+        en : Organise an event
+      path: organisateur
+    - name:
+        fr : Participer
+        en : Participate
+      path: participant
+- name:
+    fr : Villes
+    en : Cities
+  path: villes/
   section_id: cities
   children:
     - name: Paris
-      path: /villes/paris.html
+      path: paris
     - name: Lille
-      path: /villes/lille.html
+      path: lille
     - name: Lyon
-      path: /villes/lyon.html
+      path: lyon
     - name: Rennes
-      path: /villes/rennes.html
+      path: rennes
     - name: Montpellier
-      path: /villes/montpellier.html
+      path: montpellier
     - name: Tunis
-      path: /villes/tunis.html
+      path: tunis
     - name: Toulouse
-      path: /villes/toulouse.html
+      path: toulouse
 # - name: Informations
 #   path: informations.html
 #   section_id: information
@@ -41,11 +48,15 @@
 #       path: informations/notre-idee.html
 #     - name: Partenaires
 #       path: informations/partenaires.html
-- name: Contact
-  path: /contact.html
+- name:
+    fr : Contact
+    en : Contact
+  path: contact
   section_id: contact
-- name: Projets
-  path: /projets/projets.html
+- name:
+    fr : Projets
+    en : Projects
+  path: projects
   section_id: projets
 # - name: Blog
 #   path: blog.html

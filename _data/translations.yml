@@ -1,0 +1,45 @@
+location:
+  fr: Lieu
+  en: "Location"
+projects:
+  fr: Les projets
+  en: Projects
+team:
+  fr: L'équipe
+  en: Our team
+links:
+  fr: Liens
+  en: Links
+proposeproject:
+  fr: Proposer un project
+  en: Present a project
+projectleader:
+  fr: Porteur de projet
+  en: Project leader
+participant:
+  fr: Participant
+  en: Participant
+organizer:
+  fr: Devenir organisateur
+  en: Become an organizer
+ondiscute:
+  fr: On discute ?
+  en: Let's talk !
+socials:
+  fr: Réseaux socials
+  en: Socials
+marathon:
+  fr: Un marathon d'innovation
+  en: An innovation marathon
+homedescription:
+  fr: La Nuit du Code Citoyen est un marathon d'innovation en mars 2018 associant thématiques citoyennes et technologies avancées en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un programme d’accompagnement sur la durée.
+  en: The Civic Tech Night is an innovation marathon starting again next march 2018. It joins civic issues and advanced technologies and goes on in several cities of french speaking countries. The event is followed by a support programme.
+themes:
+  fr: Thématiques
+  en: Themes
+ourvalues:
+  fr: Nos valeurs
+  en: Our values
+interested:
+  fr: Intéressé.e ?
+  en: Interested ?

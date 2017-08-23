@@ -1,0 +1,249 @@
+- name: Xavier Lavayssière
+  city: Lyon
+  position: Organisateur
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:xavier@bricodeur.com"
+- name: Claudia Rinzivillo
+  city: Lyon
+  position: Organisatrice / Partenariat
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+- name: Samuel Eyre
+  city: Lyon
+  position: Organisateur / Accompagnement des projets
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:samuel@lesbricodeurs.fr"
+- name: Anys Mechkar
+  city: Lyon
+  position: Organisateur / Designer
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+- name: Anne-claire Sanz
+  city: Lyon
+  position: Communication / Designer
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+- name: David Faveris
+  city: Lyon
+  position: Organisateur / Developpeur
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+- name: Thibaut Poullain
+  city: Lille
+  position: Ingé Developpeur & Energéticien
+  avatar: /assets/images/default_avatar.png
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:thibaut.poullain@ydrazil.fr"
+- name: Amaury Van Espen
+  city: Lille
+  position: de la prospective vers de la transmission
+  avatar: /assets/images/default_avatar.png
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:vanespen.amaury@gmail.com"
+- name: Nicolas Ameux
+  city: Lille
+  position: museomix, gérant de Maison Folie (Lomme)
+  avatar: /assets/images/default_avatar.png
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:n.ammeux@gmail.com"
+- name: Julien Lecaille
+  city: Lille
+  position: élu, assemblée des communs
+  avatar: /assets/images/default_avatar.png
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:julien.lecaille@gmail.com"
+- name: Tiphaine Dejonge
+  city: Lille
+  position: design de services
+  avatar: /assets/images/default_avatar.png
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: "mailto:tiphaine.dejonge@maalai.fr"
+- name: Myriam Monneraud
+  city: Montpellier
+  position: Happy orga
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:contact.gamecampus@gmail.com
+- name: Virgile Decity
+  position: Gentil organisateur
+  city: Paris
+  avatar: /assets/images/equipe/virgile.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:virgile@opensourcepolitics.eu
+  - name: twitter
+    url: https://twitter.com/VirgileDecity
+- name: Valentin Chaput
+  city: Paris
+  position: Gentil organisateur
+  avatar: /assets/images/equipe/valentin.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:valentin@opensourcepolitics.eu
+  - name: twitter
+    url: https://twitter.com/ValentinChaput
+- name: Paul Richardet
+  city: Paris
+  position: Gentil organisateur
+  avatar: /assets/images/equipe/paul-richardet.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:paulrichardet@gmail.com
+  - name: twitter
+    url: https://twitter.com/PaulRichardet
+- name: Caroline Corbal
+  city: Paris
+  position: Gentille organisatrice
+  avatar: /assets/images/equipe/caroline.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:caroline@democracyos.eu
+  - name: twitter
+    url: https://twitter.com/CaroCorbal
+- name: Noé Jacomet
+  city: Paris
+  position: Gentil organisateur
+  avatar: /assets/images/equipe/noe.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:noe@opensourcepolitics.eu
+  - name: twitter
+    url: https://twitter.com/NoiJcm
+- name: Pierre-Louis Rolle
+  city: Paris
+  position: Gentil organisateur
+  avatar: /assets/images/equipe/pierre-louis.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:pierre.lr@gmail.com
+  - name: twitter
+    url: https://twitter.com/PierreLouisR
+- name: Digital Athanor
+  city: Rennes
+  position: Promotion Of New Cultures Via News Medias. IN VERITAS VIRTUS, we vulgarize digital cultures around tech world ... We support #open #culture #scene
+  avatar: http://www.digital-athanor.com/wp-content/uploads/2016/05/DA-201605_LOGO.gif
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:xcoadic@protonmail.com
+  - name: twitter
+  - url: https://twitter.com/d_athanor
+- name: Xavier Coadic
+  city: Rennes
+  position: "Happy orga, Large Human Collider, #biomimicry, #OpenSource , Maker, biology, Explorer, Hybridation, Enviro. Founder @Le_biome . BioHackTivist @OpenBioFabrics Member @D_Athanor"
+  avatar: /assets/images/equipe/xavier.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: envelope
+    url: mailto:xcoadic@protonmail.com
+  - name: twitter
+    url: https://twitter.com/XavierCoadic
+- name: Théo Vital
+  city: Rennes
+  position: Happy orga, étudiant INSA Rennes
+  avatar: /assets/images/equipe/theo.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: enveloppe
+    url: mailto:ncc.rennes@protonmail.com
+  - name: twitter
+    url: https://twitter.com/vital_theo
+- name: Olivier Norvez
+  city: Rennes
+  position: Happy orga, biologiste écologie/biodiversité/données
+  avatar: /assets/images/equipe/olivier.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: enveloppe
+    url: mailto:ncc.rennes@protonmail.com
+  - name: twitter
+    url: https://twitter.com/onorvez
+- name: Sophie Barel
+  city: Rennes
+  position: Happy orga, Graphiste et Doctorante/chargée de cours SIC à @UnivRennes2
+  avatar: /assets/images/equipe/sophie.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: enveloppe
+    url: mailto:ncc.rennes@protonmail.com
+  - name: twitter
+    url: https://twitter.com/SophieBarel
+- name: Matthieu Brient
+  city: Rennes
+  position: Happy connecteur, Cultures et pratiques numériques. Coordination de projets @LabFabfr, @MuseomixOuest, @LaSophiste #Labs #Creativ #Commons
+  avatar: /assets/images/equipe/happyOrga2.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: enveloppe
+    url: mailto:ncc.rennes@protonmail.com
+  - name: twitter
+    url: https://twitter.com/MatthieuBrient
+- name: Walid Doghri
+  city: Tunis
+  position: Lead Breaker
+  avatar: /assets/images/equipe/walid.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: twitter
+    url: https://twitter.com/waliddoghri
+- name: Mohamed Chedli Ben Yaghlane
+  city: Tunis
+  position: Maker
+  avatar: /assets/images/equipe/chedli.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: twitter
+    url: https://twitter.com/Mohamed_Chedli
+- name: Houssem Ben Ghorbal
+  city: Tunis
+  position: Happy orga, Graphic Designer
+  avatar: /assets/images/equipe/houssem.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: twitter
+    url: https://twitter.com/#
+- name: Adnen Bel Hadj Yahia
+  city: Tunis
+  position: Happy orga
+  avatar: /assets/images/equipe/adnen.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: twitter
+    url: https://twitter.com/#
+- name: Houssem Ben Othman
+  city: Tunis
+  position: Computer Science Student
+  avatar: /assets/images/equipe/hbo.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  socials:
+  - name: twitter
+    url: https://twitter.com/hbo_jumper
+- name: Ayoub Dali
+  city: Tunis
+  position: Computer Science Student
+  avatar: /assets/images/equipe/ayoub.jpg
+  avatar_hover: /assets/images/equipe/happyOrga.jpg
