@@ -6,58 +6,72 @@
      src: url(../fonts/font-awesome.ttf);
  }
 
- #projets_container.row{
-   max-width: 100%;
-   width: 100%;
-   padding: 0;
- }
 
- // -- size project_container
- $pcmob : 100;
- $pcsm : 50;
- $pcmd : 33.3333;
- $pcbg : 25;
- $pcmobpd : 1;
- $pcsmpd : 2;
- $pcmdpd : 3;
- $pcbgpd : 2;
- $titlepd : 5;
- $descrpd : 7;
- $prjpd : 2;
 
- .center{
-   text-align: center;
- }
 
- .project_container{
-   display: inline-block;
-   float: left;
-   width: 50%;
-   margin-bottom: 40px;
-   height: 450px;
+#projets_container.row{
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+}
 
-   hr{
-     padding: 0;
-     margin: 0;
-   }
+// -- size project_container
+$pcmob : 100;
+$pcsm : 50;
+$pcmd : 33.3333;
+$pcbg : 25;
+$pcmobpd : 1;
+$pcsmpd : 2;
+$pcmdpd : 3;
+$pcbgpd : 2;
+$titlepd : 5;
+$descrpd : 2;
+$par_pd : 1em;
+$prjpd : 2;
 
-   img{
-     max-height: 200px;
-     max-width: 300px;
-   }
+.center{
+  text-align: center;
+}
 
-   .project_container{
-   }
+.hideLongDescription{
+  position: relative;
+  bottom: 2.2em;
+  right: 0;
+  width: 100%;
+  height: 1em;
+  background: linear-gradient(to right, rgba(255,255,255,0), #fff 90%);
+}
+
+
+.project_container{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 40px;
+  height: 450px;
+
+  hr{
+    padding: 0;
+    margin: 0;
+  }
+
+  img{
+    max-height: 200px;
+    max-width: 300px;
+  }
+
+  .project_container{
+  }
 
 
   .project_text{
-    height: 130px;
+    height: 10em;
 
     .project_description{
-      padding: percentage($descrpd/100);
+      padding: 1em percentage($descrpd/100);
     }
     .project_title {
-      padding: percentage($titlepd/100);
+      padding: 1em percentage($titlepd/100);
     }
 
     .project_title{
@@ -65,47 +79,72 @@
     }
     .project_title,
     h2{
-      height: 55px;
+      height: 3em;
       font-size: 1rem;
     }
 
-    h2, h2:hover{
-    padding: 0;
-    margin: 0;
-    }
     p{
-      height: 100px;
+      padding: $par_pd;
     }
 
+    h2, p, .hideLongDescription{
+      -webkit-transition: background 0.5s ease, opacity 0.5s ease,  visibility 0.5s ease;
+      -moz-transition: background 0.5s ease, opacity 0.5s ease,  visibility 0.5s ease;
+      transition: background 0.5s ease, opacity 0.5s ease,  visibility 0.5s ease;
+    }
+
+    h2, h2:hover{
+      padding: 0;
+      margin: 0;
+    }
+    p{
+      border-radius: 1px;
+      height: 5em;
+    }
+
+
+
     h2 {
+      height: auto;
+      width: auto;
       overflow: hidden;
       white-space: nowrap;
+      position: absolute;
       text-overflow: ellipsis;
     }
 
-    h2:hover, p:hover{
-      height: auto;
+    h2:hover, .project_description:hover p{
       background-color: rgb(242, 242, 242);
+
       overflow: visible;
       white-space: normal;
       position: absolute;
+      height: auto;
       width: auto;
     }
 
+    .project_description:hover p{
+      //background: linear-gradient(to bottom, rgba(242, 242, 242, 1), rgba(255, 255, 255, 1) 99%,  rgba(255, 255, 255, 0) 100%);
+    }
 
-  $font-size: 12px;
-  $line-height: 1.4;
-  $lines-to-show: 3;
+    .project_description:hover .hideLongDescription{
+      opacity: 0;
+    }
+
+
+    $font-size: 12px;
+    $line-height: 1.4;
+    $lines-to-show: 3;
 
 
     p {
       display: block; /* Fallback for non-webkit */
-      display: -webkit-box;
-      height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+      //display: -webkit-box;
+      height: 5em; /* Fallback for non-webkit */
       // margin: 0 auto;
       font-size: $font-size;
       line-height: $line-height;
-      -webkit-line-clamp: $lines-to-show;
+      //-webkit-line-clamp: $lines-to-show;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -119,14 +158,13 @@
       p{
         max-width: percentage(1);
       }
-      p:hover{
+      .project_description:hover p{
         max-width: maxwidth($pcmob, $pcmobpd, $prjpd, $descrpd);
       }
       h2{
-        max-width: percentage(1);
+        max-width: maxwidth($pcmob, $pcmobpd, $prjpd, $titlepd);
       }
       h2:hover{
-        max-width: maxwidth($pcmob, $pcmobpd, $prjpd, $titlepd);
       }
     }
 
@@ -134,14 +172,13 @@
       p{
         max-width: percentage(1);
       }
-      p:hover{
+      .project_description:hover p{
         max-width: maxwidth($pcsm, $pcsmpd, $prjpd, $descrpd);
       }
       h2{
-        max-width: percentage(1);
+        max-width: maxwidth($pcsm, $pcsmpd, $prjpd, $titlepd);
       }
       h2:hover{
-        max-width: maxwidth($pcsm, $pcsmpd, $prjpd, $titlepd);
       }
     }
 
@@ -149,14 +186,13 @@
       p{
         max-width: percentage(1);
       }
-      p:hover{
+      .project_description:hover p{
         max-width: maxwidth($pcmd, $pcmdpd, $prjpd, $descrpd);
       }
       h2{
-        max-width: percentage(1);
+        max-width: maxwidth($pcmd, $pcmdpd, $prjpd, $titlepd);
       }
       h2:hover{
-        max-width: maxwidth($pcmd, $pcmdpd, $prjpd, $titlepd);
       }
     }
 
@@ -164,14 +200,13 @@
       p{
         max-width: percentage(1);
       }
-      p:hover{
+      .project_description:hover p{
         max-width: maxwidth($pcbg, $pcbgpd, $prjpd, $descrpd);
       }
       h2{
-        max-width: percentage(1);
+        max-width: maxwidth($pcbg, $pcbgpd, $prjpd, $titlepd);
       }
       h2:hover{
-        max-width: maxwidth($pcbg, $pcbgpd, $prjpd, $titlepd);
       }
     }
 
@@ -202,22 +237,22 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
   .project_container{
-  width: percentage($pcsm/100);
-  padding: percentage($pcsmpd/100);
-}
+    width: percentage($pcsm/100);
+    padding: percentage($pcsmpd/100);
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
   .project_container{
-  width: percentage($pcmd/100);
-  padding: percentage($pcmdpd/100);
-}
+    width: percentage($pcmd/100);
+    padding: percentage($pcmdpd/100);
+  }
 }
 
 @media (min-width: 1200px) {
   .project_container{
-  width: percentage($pcbg/100);
-  padding: percentage($pcbgpd/100);
+    width: percentage($pcbg/100);
+    padding: percentage($pcbgpd/100);
   }
 }
 

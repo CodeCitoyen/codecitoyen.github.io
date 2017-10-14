@@ -75,6 +75,7 @@ jQuery(document).ready(function($) {
                 "<hr>"+
                 "<div class=\"project_description\">"+
                   "<p>"+values[i][1]+"</p>"+
+                  "<div class=\"hideLongDescription\"></div>"+
                 "</div>"+
               "</div>"+
               "<div class=\"center\">"+
