@@ -28,7 +28,7 @@ section_id: city
 <div class="row">
   <div class="large-8 columns">
     <div class="project-intro">
-          <h2>{{page.city_name}}</h2>
+          <!--<h2>{{page.city_name}}</h2>-->
           <p>{{page.description }}</p>
     </div>
   </div>
@@ -106,7 +106,7 @@ section_id: city
     {% for member in site.data.members %}
       {% if member.city == page.city_name %}
 
-      <div class="large-3 columns">
+      <div class="avatar-container large-3 columns">
         <div class="member">
           <img src="{{member.avatar}}" alt="{{member.name}}">
           <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">

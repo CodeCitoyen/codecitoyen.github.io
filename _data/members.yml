@@ -1,44 +1,57 @@
 - name: Xavier Lavayssière
   city: Lyon
   position: Organisateur
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/Xa.jpg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
   socials:
   - name: envelope
-    url: "mailto:xavier@bricodeur.com"
+    url: "mailto:xavier@lesbricodeurs.fr"
 - name: Claudia Rinzivillo
   city: Lyon
   position: Organisatrice / Partenariat
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/claudia.jpg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
+  socials:
+    - name: envelope
+      url: "mailto:claudia@lesbricodeurs.fr"
 - name: Samuel Eyre
   city: Lyon
   position: Organisateur / Accompagnement des projets
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/samuelE.jpg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
   socials:
   - name: envelope
     url: "mailto:samuel@lesbricodeurs.fr"
 - name: Anys Mechkar
   city: Lyon
   position: Organisateur / Designer
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/anys.png
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
 - name: Anne-claire Sanz
   city: Lyon
   position: Communication / Designer
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/anneclaire.jpg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
 - name: David Faveris
   city: Lyon
   position: Organisateur / Developpeur
-  avatar: /assets/images/equipe/happyOrga2.jpg
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar: /assets/images/equipe/smag0.jpeg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
+- name: Nolwenn Rousselot
+  city: Lyon
+  position: Organisatrice
+  avatar: /assets/images/partenaires/lesbricodeurs.png
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
+- name: Amine BOULOUMA
+  city: Lyon
+  position: Communication / Référencement
+  avatar: /assets/images/partenaires/lesbricodeurs.png
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
 - name: Thibaut Poullain
   city: Lille
   position: Ingé Developpeur & Energéticien
   avatar: /assets/images/default_avatar.png
-  avatar_hover: /assets/images/equipe/happyOrga.jpg
+  avatar_hover: /assets/images/partenaires/lesbricodeurs.png
   socials:
   - name: envelope
     url: "mailto:thibaut.poullain@ydrazil.fr"

@@ -440,6 +440,10 @@ body {
   text-transform: capitalize; }
 
 /* member */
+.avatar-container{
+  min-height: 450px;
+}
+
 .member {
   text-align: center;
   width: 220px;
