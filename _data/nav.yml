@@ -19,7 +19,7 @@
 - name:
     fr : Villes
     en : Cities
-  path: villes/
+  path: villes
   section_id: cities
   children:
     - name: Paris

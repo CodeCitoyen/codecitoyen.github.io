@@ -40,7 +40,7 @@
 
               <a href="
               {% if item.path == 'participer/' %}
-                {{site.baseurl}}/{{ item.path }}{{page.lang}}/proposer-un-projet
+                {{site.baseurl}}/{{ item.path }}/{{page.lang}}/proposer-un-projet
               {% else %}
                 {{site.baseurl}}/{{page.lang}}/{{ item.path }}
               {% endif %}
@@ -49,7 +49,7 @@
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.baseurl}}/{{ item.path }}{{page.lang}}/{{ child.path }}">
+                    <a href="{{site.baseurl}}/{{ item.path }}/{{page.lang}}/{{ child.path }}">
                       {% if child.name.en %}
                         {{ child.name[page.lang] }}
                       {% else %}
