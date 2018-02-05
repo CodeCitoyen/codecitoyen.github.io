@@ -77,18 +77,26 @@ section_id: city
     </div>
   </div>
   <div class="row">
-   <div class="large-9 large-centered columns">
-      <ul>
-      {% for projet in site.data.projets %}
-        {% if projet.ville == page.city_name %}
-
-          <li><a href="{{projet.url}}">{{projet.name}}</a>: {{projet.description}}
-          <a href="/participer/participant.html"><span class="fa fa-plus"></span>Rejoindre </li>
-
+    {% for city in site.data.villes %}
+        {% if city.name == page.city_name %}
+          {% if city.tokenProjects %}
+    <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenProjects }}" frameborder="0" onmousewheel="" width="100%" height="430" style="background: transparent; border: 1px solid #ccc;"></iframe>
+          {% endif %}
         {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
+    {% endfor %}
+
+   <!--<div class="large-9 large-centered columns">-->
+      <!--<ul>-->
+      <!--{% for projet in site.data.projets %}-->
+        <!--{% if projet.ville == page.city_name %}-->
+
+          <!--<li><a href="{{projet.url}}">{{projet.name}}</a>: {{projet.description}}-->
+          <!--<a href="/participer/participant.html"><span class="fa fa-plus"></span>Rejoindre </li>-->
+
+        <!--{% endif %}-->
+      <!--{% endfor %}-->
+      <!--</ul>-->
+    <!--</div>-->
   </div>
 </div>
 

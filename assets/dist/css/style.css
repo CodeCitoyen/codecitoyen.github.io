@@ -152,7 +152,7 @@
 
 .overlay {
   padding: 100px 0 200px;
-  background: rgba(34, 34, 34, 0.95); }
+  background: rgba(34, 34, 34, 0.85); }
 
 .no-padding {
   padding: 0; }
@@ -440,10 +440,6 @@ body {
   text-transform: capitalize; }
 
 /* member */
-.avatar-container{
-  min-height: 450px;
-}
-
 .member {
   text-align: center;
   width: 220px;
