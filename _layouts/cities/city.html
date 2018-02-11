@@ -114,7 +114,7 @@ section_id: city
      {% for city in site.data.villes %}
         {% if city.name == page.city_name %}
           {% if city.tokenOrga %}
-    <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenOrga }}" frameborder="0" onmousewheel="" width="100%" height="430" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenOrga }}" frameborder="0" onmousewheel="" width="100%" height="350" style="background: transparent; border: 1px solid #ccc;"></iframe>
           {% endif %}
         {% endif %}
     {% endfor %}
