@@ -30,12 +30,8 @@
       path: lyon
     - name: Rennes
       path: rennes
-    - name: Montpellier
-      path: montpellier
     - name: Tunis
       path: tunis
-    - name: Toulouse
-      path: toulouse
 # - name: Informations
 #   path: informations.html
 #   section_id: information
