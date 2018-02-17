@@ -5,22 +5,19 @@
 Une fois que vous avez ruby d'installé sur votre machine :
 
 ```bash
-bundle Install
+bundle install
 npm install
 gulp
 ```
 
-La config globale, commune à tous les environnements de développement, se trouve dans `_config.yml`. C'est la config qui est utilisée automatiquement par les pages github en production, on y trouve donc aussi les éléments de configuration propres à la production.
+La configuration globale, commune à tous les environnements de développement, se trouve dans `_config.yml`. C'est la config qui est utilisée automatiquement par les pages github en production, on y trouve donc aussi les éléments de configuration propres à la production.
 
-Dans `_config.dev.yml` ne figurent **que** les éléments spécifiques au développement local. Ainsi, en lançant la commande ci-dessous, c'est comme lancer le fichier `_config.yml`, mais avec les éléments spécifiques de `_config.dev.yml`.
-
-
+Dans `_config.dev.yml` ne figurent **que** les éléments spécifiques au développement local. Ainsi, en lançant la commande ci-dessous vous récupérerez les informations de `_config.yml` avec les éléments spécifiques de `_config.dev.yml`.
 
 Lancer le serveur :
 ```bash
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
-
 
 Votre site est visible sur [localhost:4000](localhost:4000)
 
@@ -29,7 +26,6 @@ Votre site est visible sur [localhost:4000](localhost:4000)
 "Your Ruby version is 2.3.1, but your Gemfile specified 2.3.3:"
 
 	sudo gem update
-
 
 
 ## Composants
