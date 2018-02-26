@@ -4,6 +4,10 @@ jQuery(document).ready(function($) {
 
   $(document).foundation();
 
+  $('a[href*=pres]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 700, 'linear');
+  });
 
   if($('form#contact_form').length > 0) {
     $('form#contact_form').validate({
