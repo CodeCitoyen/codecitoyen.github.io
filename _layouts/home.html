@@ -35,7 +35,7 @@ layout: default
 
 
 
-<div class="full centered-text light-grey">
+<div class="full centered-text light-grey" id="pres">
   <div class="section-title small">
     <div class="row">
       <div class="medium-10 medium-centered columns">
@@ -137,12 +137,23 @@ layout: default
     <div class="large-12 columns">
       <h2>{{site.data.translations.interested[page.lang]}}</h2>
       <div class="two spacing"></div>
-      <a href="{{site.baseurl}}/participer/fr/organisateur" class="button brown large  boxed">{{site.data.translations.organizer[page.lang]}}</a>
-      <a href="{{site.baseurl}}/participer/fr/participant" class="button dark boxed large ">{{site.data.translations.participant[page.lang]}}</a>
+      <a href="{{site.baseurl}}/participer/fr/organisateur" class="button black large  boxed">{{site.data.translations.organizer[page.lang]}}</a>
+      <a href="{{site.baseurl}}/participer/fr/participant" class="button dark black boxed large ">{{site.data.translations.participant[page.lang]}}</a>
       <a href="{{site.baseurl}}/participer/fr/proposer-un-projet" class="button black large boxed">{{site.data.translations.projectleader[page.lang]}}</a>
     </div>
   </div>
   <div class="two spacing"></div>
+</div>
+
+<div class="full light-grey centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>{{site.data.translations.bilan[page.lang]}}</h2>
+      </div>
+    </div>
+  </div>
+  {% include _press.html articles=page.press %}
 </div>
 
 <div class="full moutarde no-padding">

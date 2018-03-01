@@ -1,0 +1,12 @@
+<div class="row">
+  {% for article in include.articles %}
+      <div class="large-4 columns">
+      <div class="principle">
+        <a href="{{article.link}}">
+          <img src="{{article.img}}">
+        </a>
+        <h4>{{article.title}}</h4>
+      </div>
+    </div>
+  {% endfor %}
+</div>

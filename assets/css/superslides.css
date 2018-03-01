@@ -39,6 +39,10 @@
   right: 0;
   /*display: none;*/
 }
+.slides-navigation a.down {
+  bottom: 0;
+  /*display: none;*/
+}
 
 .slides-pagination {
   position: absolute;
