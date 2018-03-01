@@ -14,12 +14,14 @@
       url: https://nuitcodecitoyen.rocket.chat/channel/general
 - city: Paris
   links:
-    - name: Site web
+    - name: Latitudes
+      url: http://latitudes.cc/
+    - name: La Paillasse
+      url: http://lapaillasse.org/
+    - name: Les Bricodeurs
+      url: https://lesbricodeurs.fr
+    - name: Open Democracy Now
       url: http://opendemocracynow.net/
-    - name: Rocket Chat
-      url: https://nuitcodecitoyen.rocket.chat/channel/orga-paris
-    - name: Partenaires
-      url:
     - name: Open Source Politics, Solutions Civic Tech
       url: http://www.opensourcepolitics.eu/
     - name: Democracy OS France, de meilleure décision ensemble

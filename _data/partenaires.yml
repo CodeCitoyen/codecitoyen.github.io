@@ -1,11 +1,11 @@
 - city: Paris
   partenaires:
+    - image: /assets/images/partenaires/latitudes.png
+    - image: /assets/images/partenaires/etalab.png
+    - image: /assets/images/partenaires/paillasse.png
     - image: /assets/images/partenaires/ticket.png
     - image: /assets/images/partenaires/odn.png
     - image: /assets/images/partenaires/square.png
-    - image: /assets/images/partenaires/etalab.png
-    - image: /assets/images/partenaires/latitudes.png
-    - image: /assets/images/partenaires/paillasse.png
 - city: Rennes
   partenaires:
     - image: /assets/images/partenaires/insalan.png
