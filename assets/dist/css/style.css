@@ -144,6 +144,14 @@
   background-position: center 55%;
   background-attachment: fixed; }
 
+
+.full.Toulouse {
+  min-height: 60%;
+  background-image: url(../../images/villes/Toulouse.jpg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-attachment: fixed; }
+
 .full.dark {
   background: #333; }
 

@@ -24,8 +24,8 @@
   children:
     - name: Paris
       path: paris
-    - name: Lille
-      path: lille
+    - name: Toulouse
+      path: toulouse
     - name: Lyon
       path: lyon
     - name: Rennes
