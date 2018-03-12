@@ -69,8 +69,11 @@ section_id: city
 
 <!-- Projets -->
 
-{% if city.tokenProjects %}
-  <div class="full">
+
+{% for city in site.data.villes %}
+    {% if city.name == page.city_name %}
+    {% if city.tokenProjects %}
+<div class="full">
     <div class="section-title">
       <div class="row">
         <div class="medium-10 medium-centered columns">
@@ -79,27 +82,17 @@ section_id: city
       </div>
     </div>
     <div class="row">
-      {% for city in site.data.villes %}
-          {% if city.name == page.city_name %}
-      <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenProjects }}" frameborder="0" onmousewheel="" width="100%" height="430" style="background: transparent; border: 1px solid #ccc;"></iframe>
-          {% endif %}
-      {% endfor %}
-
-    <!--<div class="large-9 large-centered columns">-->
-        <!--<ul>-->
-        <!--{% for projet in site.data.projets %}-->
-          <!--{% if projet.ville == page.city_name %}-->
-
-            <!--<li><a href="{{projet.url}}">{{projet.name}}</a>: {{projet.description}}-->
-            <!--<a href="/participer/participant.html"><span class="fa fa-plus"></span>Rejoindre </li>-->
-
-          <!--{% endif %}-->
-        <!--{% endfor %}-->
-        <!--</ul>-->
-      <!--</div>-->
+        <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenProjects }}" frameborder="0" onmousewheel="" width="100%" height="800" style="background: transparent; border: 1px solid #ccc;"></iframe>
     </div>
-  </div>
-{% endif %}
+</div>
+  {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+{% for city in site.data.villes %}
+  {% if city.name == page.city_name %}
+    {% if city.tokenOrga %}
 <!-- team -->
 <div class="full">
   <div class="section-title">
@@ -111,13 +104,7 @@ section_id: city
     </div>
   </div>
   <div class="row">
-     {% for city in site.data.villes %}
-        {% if city.name == page.city_name %}
-          {% if city.tokenOrga %}
     <iframe class="airtable-embed" src="https://airtable.com/embed/{{ city.tokenOrga }}" frameborder="0" onmousewheel="" width="100%" height="350" style="background: transparent; border: 1px solid #ccc;"></iframe>
-          {% endif %}
-        {% endif %}
-    {% endfor %}
     <!--
     {% for member in site.data.members %}
       {% if member.city == page.city_name %}
@@ -142,6 +129,9 @@ section_id: city
      -->
   </div>
 </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 
 <div class="full moutarde no-padding">
