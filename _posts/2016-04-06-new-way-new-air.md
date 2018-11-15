@@ -1,13 +1,14 @@
 ---
-layout: post
 title: new way, new air
+date: 2016-04-06 00:46:03 +02:00
+categories:
+- travel
+layout: post
 author: hornyou
-date: 2016-04-06 06:46:03 +0800
-categories: travel
 images:
 - images/@stock/post-1.jpg
-excerpt:
-  To feel the freedom that comes from being able to continue to make mistakes and choices - today I choose to feel life, not to deny my humanity but embrace it.
+excerpt: To feel the freedom that comes from being able to continue to make mistakes
+  and choices - today I choose to feel life, not to deny my humanity but embrace it.
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.

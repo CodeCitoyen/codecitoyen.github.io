@@ -1,11 +1,13 @@
 ---
-layout: post
 title: New way, new life
+date: 2016-04-05 00:00:00 +02:00
+layout: post
 author: hornyou
 images:
-  - images/@stock/r-post-7.jpg
-excerpt:
-  Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
+- images/@stock/r-post-7.jpg
+excerpt: Every morning when I wake up I can choose joy, happiness, negativity, pain...
+  To feel the freedom that comes from being able to continue to make mistakes and
+  choices.
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.

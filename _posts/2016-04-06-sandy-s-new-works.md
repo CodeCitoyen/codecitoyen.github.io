@@ -1,13 +1,15 @@
 ---
-layout: post
 title: Sandy's new works
+date: 2016-04-06 00:44:03 +02:00
+categories:
+- travel
+layout: post
 author: hornyou
-date: 2016-04-06 06:44:03 +0800
-categories: travel
 images:
-  - images/@stock/r-post-4.jpg
-excerpt:
-  Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
+- images/@stock/r-post-4.jpg
+excerpt: Today I choose life. Every morning when I wake up I can choose joy, happiness,
+  negativity, pain... To feel the freedom that comes from being able to continue to
+  make mistakes and choices.
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.
