@@ -1,13 +1,14 @@
 ---
-layout: post
 title: new way, new born
+date: 2016-04-06 00:45:03 +02:00
+categories:
+- travel
+layout: post
 author: hornyou
-date: 2016-04-06 06:45:03 +0800
-categories: travel
 images:
 - images/@stock/post-4.jpg
-excerpt:
-  Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain...
+excerpt: Today I choose life. Every morning when I wake up I can choose joy, happiness,
+  negativity, pain...
 ---
 
 Today I choose life. Every morning when I wake up I can choose joy, happiness, negativity, pain... To feel the freedom that comes from being able to continue to make mistakes and choices.

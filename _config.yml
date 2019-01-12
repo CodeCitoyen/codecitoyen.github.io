@@ -1,52 +1,64 @@
-# Global settings =============================================================
+---
 title: Nuit du Code Citoyen
+timezone: Europe/Paris
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: pages/participer
+    type: pages
+  values:
+    layout: default
+    author: Mr. Hyde
 email: salut@lesbricodeurs.fr
-description: La Nuit du Code Citoyen est un hackathon d'innovation en mars 2019 associant défis technologiques, considérations éthiques et finalités sociales en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un programme d’accompagnement sur la durée et d'actions de médiation
-
+description: La Nuit du Code Citoyen est un hackathon d'innovation en mars 2019 associant
+  défis technologiques, considérations éthiques et finalités sociales en simultané
+  dans plusieurs villes de pays francophones. L’événement est suivi d’un programme
+  d’accompagnement sur la durée et d'actions de médiation
 twitter: lesbricodeurs
-github:  codecitoyen
+github: codecitoyen
 facebook: lesbricodeurs
 linkedin: bricodeur
-
-# prod spécifique data
-url: https://nuitcodecitoyen.org # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog
-
-
-# Build settings ==============================================================
+url: https://nuitcodecitoyen.org
+baseurl: ''
 markdown: kramdown
-
-# Sass ------------------------------------------------
-
 sass:
   sass_dir: _sass
   style: compressed
-
-
-# Locale ----------------------------------------------
-
-timezone: Europe/Paris
 encoding: utf-8
 locale: fr
-
-exclude: ["gabarit", "lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
+exclude:
+- gabarit
+- lib
+- config.rb
+- Capfile
+- config
+- log
+- Rakefile
+- Rakefile.rb
+- tmp
+- less
+- "*.sublime-project"
+- "*.sublime-workspace"
+- test
+- spec
+- Gruntfile.js
+- package.json
+- node_modules
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- vendor
 paginate: 6
-paginate_path: "blog/page:num"
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "pages/participer"
-      type: "pages" # previously `page` in Jekyll 2.2.
-    values:
-      layout: "default" # overrides previous default layout
-      author: "Mr. Hyde"
+paginate_path: blog/page:num
