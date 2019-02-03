@@ -69,12 +69,16 @@ layout: default
       {% for testimonial in page.testimonials_left %}
         <div class="quote wow slideInLeft" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
           <div class="row">
-            <div class="small-3 columns">
+            <div class="medium-12 medium-centered columns">
               <img src="{{testimonial.avatar}}" alt="Theme">
             </div>
-            <div class="small-9 columns">
+          </div>
+          <br>
+          <div class="row">
+            <div class="medium-12 medium-centered columns">
               <p class="theme">{{testimonial.theme}}</p>
               <p>{{testimonial.content}}</p>
+               <p><i>{{testimonial.auteur}}</i></p>
             </div>
           </div>
         </div>
@@ -83,17 +87,28 @@ layout: default
     <div class="large-6 columns">
       {% for testimonial in page.testimonials_right %}
         <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
-          <div class="row">
-            <div class="small-3 columns">
+                    <div class="row">
+            <div class="medium-12 medium-centered columns">
               <img src="{{testimonial.avatar}}" alt="Theme">
             </div>
-            <div class="small-9 columns">
+          </div>
+          <br>
+          <div class="row">
+            <div class="medium-12 medium-centered columns">
               <p class="theme">{{testimonial.theme}}</p>
               <p>{{testimonial.content}}</p>
+               <p><i>{{testimonial.auteur}}</i></p>
             </div>
           </div>
         </div>
       {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <br>
+    <div class="medium-6 medium-centered columns">
+      <h5>{{site.data.translations.projetsengages[page.lang]}}</h5>
+      <p></p>
     </div>
   </div>
 </div>
