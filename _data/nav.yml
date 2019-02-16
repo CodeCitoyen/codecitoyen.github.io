@@ -22,6 +22,8 @@
   path: villes
   section_id: cities
   children:
+    - name: Casablanca
+      path: casablanca
     - name: Paris
       path: paris
     - name: Toulouse
@@ -32,6 +34,7 @@
       path: rennes
     - name: Tunis
       path: tunis
+
 # - name: Informations
 #   path: informations.html
 #   section_id: information

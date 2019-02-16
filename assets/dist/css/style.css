@@ -144,12 +144,11 @@
   background-position: center 55%;
   background-attachment: fixed; }
 
-
-.full.Toulouse {
+.full.Casablanca {
   min-height: 60%;
-  background-image: url(../../images/villes/Toulouse.jpg);
+  background-image: url(../../images/villes/Casablanca.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center 55%;
   background-attachment: fixed; }
 
 .full.dark {

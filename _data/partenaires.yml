@@ -1,25 +1,15 @@
 - city: Paris
   partenaires:
     - image: /assets/images/partenaires/latitudes.png
-    # - image: /assets/images/partenaires/etalab.png
-    # - image: /assets/images/partenaires/paillasse.png
-    # - image: /assets/images/partenaires/ticket.png
-    # - image: /assets/images/partenaires/odn.png
-    # - image: /assets/images/partenaires/square.png
 - city: Rennes
   partenaires:
-    # - image: /assets/images/partenaires/insalan.png
-    # - image: /assets/images/partenaires/mce.png
-    # - image: /assets/images/partenaires/Disco-soupe.png
-    # - image: /assets/images/partenaires/codeacademie.png
-    # - image: /assets/images/partenaires/insalan.png
-    # - image: /assets/images/partenaires/mce.png
-    # - image: /assets/images/partenaires/Disco-soupe.png
-    # - image: /assets/images/partenaires/codeacademie.png
 - city: Lyon
   partenaires:
-    # - image: /assets/images/partenaires/logo-101.jpg
     - image: /assets/images/partenaires/bricodeurs.png
+    - image: /assets/images/partenaires/lyondatascience.png
+    - image: /assets/images/partenaires/ynov-lyon.png
+    - image: /assets/images/partenaires/cryptolyon.png
+    - image: /assets/images/partenaires/opencylife.jpg
 - city: Tunis
   partenaires:
     - image: /assets/images/partenaires/elspace.png
