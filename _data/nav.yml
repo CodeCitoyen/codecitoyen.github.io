@@ -22,8 +22,6 @@
   path: villes
   section_id: cities
   children:
-    - name: Casablanca
-      path: casablanca
     - name: Paris
       path: paris
     - name: Toulouse
