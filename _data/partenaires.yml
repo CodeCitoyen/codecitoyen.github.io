@@ -1,6 +1,8 @@
 - city: Paris
   partenaires:
     - image: /assets/images/partenaires/latitudes.png
+    - image: /assets/images/partenaires/code-for-france.png
+    - image: /assets/images/partenaires/lll.png
 - city: Rennes
   partenaires:
 - city: Lyon

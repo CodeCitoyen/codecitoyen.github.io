@@ -16,22 +16,10 @@
   links:
     - name: Latitudes
       url: http://latitudes.cc/
-    - name: La Paillasse
-      url: http://lapaillasse.org/
-    - name: Les Bricodeurs
-      url: https://lesbricodeurs.fr
-    - name: Open Democracy Now
-      url: http://opendemocracynow.net/
-    - name: Open Source Politics, Solutions Civic Tech
-      url: http://www.opensourcepolitics.eu/
-    - name: Democracy OS France, de meilleure décision ensemble
-      url: http://democracyos.eu/
-    - name: OGP Toolbox, boite à outils du gouvernement ouvert
-      url: https://ogptoolbox.org/fr/
-    - name: Open Law, le droit ouvert
-      url: http://openlaw.fr/
-    - name: République Citoyenne
-      url: http://republiquecitoyenne.fr/
+    - name: Liberté-Living Lab
+      url: http://liberte.paris/
+    - name: Code for France
+      url: http://codefor.fr/
 - city: Rennes
   links:
     - name: Lieu - MCE
