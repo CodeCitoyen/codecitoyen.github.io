@@ -7,7 +7,6 @@ Une fois que vous avez ruby d'installé sur votre machine :
 ```bash
 bundle install
 npm install
-gulp
 ```
 
 La configuration globale, commune à tous les environnements de développement, se trouve dans `_config.yml`. C'est la config qui est utilisée automatiquement par les pages github en production, on y trouve donc aussi les éléments de configuration propres à la production.

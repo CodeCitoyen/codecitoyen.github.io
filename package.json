@@ -1,27 +1,24 @@
 {
   "name": "codecitoyen",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "## Installation en local",
   "main": "gulpfile.js",
+  "engines": {
+    "node": ">=12"
+  },
   "directories": {
     "doc": "doc"
   },
-  "dependencies": {
+  "devDependencies": {
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.2.1"
-  },
-  "devDependencies": {
-    "font-awesome": "^4.7.0",
-    "gulp": "github:gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodeCitoyen/codecitoyen.github.io.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/CodeCitoyen/codecitoyen.github.io.git",
+  "author": "Samuel Eyre <samuel.eyre@hotmail.fr>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CodeCitoyen/codecitoyen.github.io/issues"

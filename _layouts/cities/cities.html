@@ -13,6 +13,7 @@ layout: default
   </div>
 </div>
 <div class="full white flower">
+  <p class="centered-text">Cliquez sur une ville pour avoir les informations de l'évènement !</p>
   <div class="two spacing"></div>
   <div class="row">
     <div class="large-6 columns">
@@ -31,43 +32,74 @@ layout: default
 
 <script type="text/javascript">
 
-var scope = {};
+const scope = {};
 scope.markerColor = '#E84855';
 scope.bgColor = 'transparent';
 scope.scale = 1;
 scope.scaleColors = ["#454545","#5e5e5e"];
 scope.markers = [
-        {latLng:[45.764043, 4.835659],name:'Lyon', url: '/villes/{{page.lang}}/lyon.html'},
-        //{latLng:[50.629250, 3.057256],name:'Lille', url :'/villes/{{page.lang}}/lille.html'},
-        {latLng:[48.117266, -1.677793],name:'Rennes', url :'/villes/{{page.lang}}/rennes.html'},
-        // {latLng:[43.6108, 3.8767],name:'Montpellier', url :'/villes/montpellier.html'},
-        // {latLng:[48.9323, 2.4040],name:'Aubervillier', url:"https://www.meetup.com/fr-FR/HackerHouse-Paris/events/237847291/"},
-        {latLng:[45.777222, 3.087025],name:'Clermont', url: '/villes/},
-        {latLng:[43.6047, 1.4442],name:'Toulouse', url:"/villes/{{page.lang}}/toulouse.html"},
-        {latLng:[48.8366, 2.3322],name:'Paris', url:"/villes/{{page.lang}}/paris.html"},
-      ]
+  {
+    latLng:[50.629250, 3.057256],name:'Lille', url :'/villes/{{page.lang}}/lille.html'
+  },
+  {
+    latLng:[45.8336, 1.2611],name:'Limoges', url: '/villes/{{page.lang}}/limoges.html'
+  },
+  {
+    latLng:[45.764043, 4.835659],name:'Lyon', url: '/villes/{{page.lang}}/lyon.html'
+  },
+  {
+    latLng:[49.1193, 6.1757],name:'Metz', url :'/villes/metz.html'
+  },
+  {
+    latLng:[43.2965, 5.3698],name:'Marseille', url :'/villes/{{page.lang}}/marseille.html'
+  },
+  {
+    latLng:[43.6108, 3.8767],name:'Nantes', url :'/villes/{{page.lang}}/montpellier.html'
+  },
+  {
+    latLng:[48.117266, -1.677793],name:'Rennes', url :'/villes/{{page.lang}}/rennes.html'
+  },
+  {
+    latLng:[43.6047, 1.4442],name:'Toulouse', url:"/villes/{{page.lang}}/toulouse.html"
+  },
+  {
+    latLng:[48.8366, 2.3322],name:'Paris', url:"/villes/{{page.lang}}/paris.html"
+  }
+];
+
 scope.markersAfrica = [
-        {latLng:[36.806495, 10.181532],name:'Tunis', url: '/villes/{{page.lang}}/tunis'},
-        // {latLng:[12.371428, -1.519660],name:'Ouagadougou', url :'/villes/'},
-       {latLng:[33.5731, -7.5898],name:'Casablanca', url :'/villes/'},
-       ]
+  {
+    latLng:[36.806495, 10.181532],name:'Tunis', url: '/villes/{{page.lang}}/tunis'
+  },
+];
+
+// {latLng:[43.6108, 3.8767],name:'Montpellier', url :'/villes/montpellier.html'},
+// {latLng:[48.9323, 2.4040],name:'Aubervillier', url:"https://www.meetup.com/fr-FR/HackerHouse-Paris/events/237847291/"},
+// {latLng:[12.371428, -1.519660],name:'Ouagadougou', url :'/villes/'},
+// {
+//   latLng:[45.777222, 3.087025],name:'Clermont', url: '/villes/'
+// },
+// {
+//   latLng:[33.5731, -7.5898],name:'Casablanca', url :'/villes/'
+// },
 
 
-$.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
-  $.getScript("/assets/js/jquery-jvectormap-fr_regions_2016-mill.js",function(){
+$.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js", function () {
+  $.getScript("/assets/js/jquery-jvectormap-fr_regions_2016-mill.js", function () {
 
     $('#mapFrance').vectorMap({
       map: 'fr_regions_2016_mill',
       backgroundColor: scope.bgColor,
       zoomMin: 1,
+      zoomButtons : false,
       zoomOnScroll: false,
       regionStyle: {
         initial: {
-          fill:"#33374C",
-          "fill-opacity":1,
+          fill: "#33374C",
+          "fill-opacity": 1,
           stroke: '#222',
-          "stroke-width":0.4,
-          "stroke-opacity":1
+          "stroke-width": 0.4,
+          "stroke-opacity": 1
         },
         hover: {
           "fill-opacity": 0.8
@@ -75,10 +107,9 @@ $.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
         selected: {
           fill: '#3F8CFF'
         },
-        selectedHover: {
-        }
+        selectedHover: {}
       },
-      focusOn:{x:0.5, y:0.5, scale:scope.scale},
+      focusOn: {x: 0.5, y: 0.5, scale: scope.scale},
       markerStyle: {
         initial: {
           fill: scope.markerColor,
@@ -86,7 +117,7 @@ $.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
         }
       },
       markers: scope.markers,
-      onMarkerClick: function(event, index) {
+      onMarkerClick: function (event, index) {
         window.location.href = scope.markers[index].url;
       },
 
@@ -101,20 +132,21 @@ $.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
 
   }); // asyncFrance
 
-  $.getScript("/assets/js/jquery-jvectormap-africa-mill.js",function(){
+  $.getScript("/assets/js/jquery-jvectormap-africa-mill.js", function () {
 
     $('#mapAfrica').vectorMap({
       map: 'africa_mill',
       backgroundColor: scope.bgColor,
       zoomMin: 1,
       zoomOnScroll: false,
+      zoomButtons : false,
       regionStyle: {
         initial: {
-          fill:"#33374C",
-          "fill-opacity":1,
+          fill: "#33374C",
+          "fill-opacity": 1,
           stroke: '#222',
-          "stroke-width":0.4,
-          "stroke-opacity":1
+          "stroke-width": 0.4,
+          "stroke-opacity": 1
         },
         hover: {
           "fill-opacity": 0.8
@@ -122,10 +154,9 @@ $.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
         selected: {
           fill: '#3F8CFF'
         },
-        selectedHover: {
-        }
+        selectedHover: {}
       },
-      focusOn:{x:0.5, y:0.5, scale:scope.scale},
+      focusOn: {x: 0.5, y: 0.5, scale: scope.scale},
       markerStyle: {
         initial: {
           fill: scope.markerColor,
@@ -133,7 +164,7 @@ $.getScript("/assets/js/jquery-jvectormap-2.0.3.min.js",function(){
         }
       },
       markers: scope.markersAfrica,
-      onMarkerClick: function(event, index) {
+      onMarkerClick: function (event, index) {
         window.location.href = scope.markersAfrica[index].url;
       },
 

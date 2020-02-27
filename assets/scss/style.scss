@@ -407,22 +407,29 @@ body {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0); } }
+
 /* Navigation */
+
 .title-area h1 {
-  line-height: 1;
-  padding-left: 15px; }
-  .title-area h1 a {
+  line-height: 1.1;
+  padding-left: 15px;
+  a {
     color: #333;
     font-size: 18px;
-    font-family: "josefin sans";
+    font-family: "josefin sans", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 5px; }
-    .title-area h1 a span {
-      color: #ab8860; }
+    letter-spacing: 2px;
+    padding-left: 5px;
+    span {
+      color: #ab8860;
+    }
+  }
+}
 
 .title-area.white h1 a {
-  color: #fff; }
+  color: #fff;
+}
 
 #menu-toggler {
   padding-right: 40px;

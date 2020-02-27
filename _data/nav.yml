@@ -22,10 +22,24 @@
   path: villes
   section_id: cities
   children:
-    - name: Paris
-      path: paris
+    - name: Lille
+      path: lille
+    - name: Limoges
+      path: limoges
     - name: Lyon
       path: lyon
+    - name: Marseille
+      path: marseille
+    - name: Metz
+      path: metz
+    - name: Nantes
+      path: nantes
+    - name: Paris
+      path: paris
+    - name: Rennes
+      path: rennes
+    - name: Toulouse
+      path: toulouse
     - name: Tunis
       path: tunis
 
@@ -51,11 +65,4 @@
     en : Projects
   path: projects
   section_id: projets
-# - name: Blog
-#   path: blog.html
-#   section_id: blog
-#   children:
-#     - name: Blog
-#       path: blog/
-#     - name: Single Page
-#       path: travel/2016/04/06/beautiful-day.html
+

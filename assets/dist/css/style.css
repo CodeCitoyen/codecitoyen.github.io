@@ -102,54 +102,13 @@
   background-repeat: no-repeat;
   background-position: center top;*/ }
 
-.full.Lille {
+.full.city {
   min-height: 60%;
   background-image: url(../../images/villes/Lille.jpg);
   background-repeat: no-repeat;
   background-position: center 55%;
-  background-attachment: fixed; }
-
-.full.Paris {
-  min-height: 60%;
-  background-image: url(../../images/villes/Paris.jpg);
-  background-repeat: no-repeat;
-  background-position: center 55%;
-  background-attachment: fixed; }
-
-.full.Lyon {
-  min-height: 60%;
-  background-image: url(../../images/villes/Lyon.jpg);
-  background-repeat: no-repeat;
-  background-position: center 55%;
-  background-attachment: fixed; }
-
-.full.Rennes {
-  min-height: 60%;
-  background-image: url(../../images/villes/Rennes.jpg);
-  background-repeat: no-repeat;
-  background-position: center 55%;
-  background-attachment: fixed; }
-
-.full.Montpellier {
-  min-height: 60%;
-  background-image: url(../../images/villes/Montpellier.jpg);
-  background-repeat: no-repeat;
-  background-position: center 40%;
-  background-attachment: fixed; }
-
-.full.Tunis {
-  min-height: 60%;
-  background-image: url(../../images/villes/Tunis.jpg);
-  background-repeat: no-repeat;
-  background-position: center 55%;
-  background-attachment: fixed; }
-
-.full.Casablanca {
-  min-height: 60%;
-  background-image: url(../../images/villes/Casablanca.jpg);
-  background-repeat: no-repeat;
-  background-position: center 55%;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
 .full.dark {
   background: #333; }
@@ -393,16 +352,18 @@ body {
 
 /* Navigation */
 .title-area h1 {
-  line-height: 1;
+  line-height: 1.1;
   padding-left: 15px; }
 
 .title-area h1 a {
   color: #333;
   font-size: 18px;
-  font-family: "josefin sans";
+  font-family: "josefin sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 5px; }
+  letter-spacing: 2px;
+  padding-left: 5px;
+}
 
 .title-area h1 a span {
   color: #ab8860; }

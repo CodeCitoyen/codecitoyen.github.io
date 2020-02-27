@@ -1,17 +1,15 @@
 - city: Lyon
   links:
-    - name: En discuter
+    - name: Discutez avec nous !
       url: https://join.slack.com/t/bricodeurs/shared_invite/enQtMjg2NDQ4MjM3NzY3LTBkMmRkZTk2Njg5YzdjNTJlNGZkZWZhZjU4ZTc3ZWIwNjBlN2YzNTI1ZjNkNjFiZWYwYzUyYjZlZTJkN2MzZDU
     - name: Les Bricodeurs
       url: https://lesbricodeurs.fr
+    - name: OpenCyLife
+      url: https://www.open-cy.life
+    - name: CryptoLyon
+      url: https://www.crypto-lyon.fr
 - city: Lille
-  links:
-    - name: En discuter
-      url: https://nuitcodecitoyen.rocket.chat/channel/general
 - city: Montpellier
-  links:
-    - name: En discuter
-      url: https://nuitcodecitoyen.rocket.chat/channel/general
 - city: Paris
   links:
     - name: Latitudes
@@ -21,15 +19,8 @@
     - name: Code for France
       url: http://codefor.fr/
 - city: Rennes
-  links:
-    - name: Lieu - MCE
-      url: http://www.openstreetmap.org/way/246633823
-    - name: En discuter
-      url: https://nuitcodecitoyen.rocket.chat/channel/rennes
 - city: Toulouse
-  links:
-    - name: En discuter
-      url: https://nuitcodecitoyen.rocket.chat/
+- city: Limoges
 - city: Tunis
   links:
     - name: Lieu EL Space
