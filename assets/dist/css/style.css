@@ -1191,6 +1191,10 @@ nav.wrapper a.next {
 .slick-slider {
   margin-bottom: 0; }
 
+.slick-slider .slick-track {
+  display: flex;
+}
+
 .slides.half-width img {
   width: 100%; }
 

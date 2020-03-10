@@ -134,22 +134,34 @@ section_id: city
 {% endfor %}
 
 
+{% assign hasOrganizers = false %}
+
+{% for item in site.data.partenaires %}
+  {% if item.city == page.city_name %}
+
+  {% assign hasOrganizers = true %}
+
+  {% endif %}
+{% endfor %}
+
+{% if hasOrganizers %}
+
+<div class="full centered-text no-padding">
+  <h3 class="">Organisateurs</h3>
+</div>
+
 <div class="full moutarde no-padding">
   <div class="two spacing"></div>
   <div class='row'>
     <div class='large-12 columns text-center'>
       <div class='clients'>
-        {% for item in site.data.partenaires %}
+        {% for item in site.data.organizers %}
           {% if item.city == page.city_name %}
-
-          {% for partenaire in item.partenaires %}
-
-          <div class="partenaire ">
-            <div class=""><a href="{{partenaire.url}}"><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{partenaire.image}}"></a></div>
-          </div>
-          {% endfor %}
-
-
+            {% for organizer in item.organizers %}
+              <div class="partenaire ">
+                <div class=""><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{organizer.image}}"></div>
+              </div>
+            {% endfor %}
           {% endif %}
         {% endfor %}
       </div>
@@ -157,3 +169,47 @@ section_id: city
   </div>
   <div class="two spacing"></div>
 </div>
+
+{% endif %}
+
+
+{% assign hasPartners = false %}
+
+{% for item in site.data.partenaires %}
+  {% if item.city == page.city_name %}
+
+    {% assign hasPartners = true %}
+
+  {% endif %}
+{% endfor %}
+
+{% if hasPartners %}
+
+  <div class="full centered-text no-padding">
+    <div class="two spacing"></div>
+    <div class="two spacing"></div>
+    <h3>Partenaires ❤️</h3>
+  </div>
+
+  <div class="full moutarde no-padding">
+    <div class="two spacing"></div>
+    <div class='row'>
+      <div class='large-12 columns text-center'>
+        <div class='clients'>
+          {% for item in site.data.partenaires %}
+            {% if item.city == page.city_name %}
+            {% for partenaire in item.partenaires %}
+              <div class="partenaire ">
+                <div class=""><img alt="" class="logo-partenaire logo-partenaire-ville" src="{{partenaire.image}}"></div>
+              </div>
+            {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="two spacing"></div>
+  </div>
+
+{% endif %}
+

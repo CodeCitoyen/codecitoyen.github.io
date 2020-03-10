@@ -170,6 +170,44 @@ layout: default
   {% include _press.html articles=page.press %}
 </div>
 
+<div class="full centered-text">
+<h2>Organisateurs</h2>
+</div>
+
+<div class="full moutarde no-padding">
+  <div class="two spacing"></div>
+  <div class='row'>
+    <div class='large-12 columns text-center'>
+      <div class='clients '>
+        {% assign filteredOrganizer = array[1] %}
+
+        {% for item in site.data.organizers %}
+        {% for organizer in item.organizers %}
+        {% unless filteredOrganizer contains organizer.image %}
+        {% capture filteredOrganizer %}{{ filteredOrganizer }}|{{ organizer.image }}{% endcapture %}
+        {% endunless %}
+        {% endfor %}
+        {% endfor %}
+
+        {% assign filteredOrganizer = filteredOrganizer | split: '|' | sort %}
+
+        {% for image in filteredOrganizer  %}
+        {% if image != "" %}
+        <div class="partenaire">
+          <div class=""><img class="logo-partenaire" alt="" src="{{image}}"></div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+
+<div class="full centered-text">
+  <h2>Partenaires ❤️</h2>
+</div>
 <div class="full moutarde no-padding">
   <div class="two spacing"></div>
   <div class='row'>

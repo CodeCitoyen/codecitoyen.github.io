@@ -1,14 +1,6 @@
 - city: Paris
   partenaires:
-    - image: /assets/images/partenaires/latitudes.png
-    - image: /assets/images/partenaires/code-for-france.png
     - image: /assets/images/partenaires/lll.png
 - city: Lyon
   partenaires:
-    - image: /assets/images/partenaires/bricodeurs.png
     - image: /assets/images/partenaires/tuba.png
-    - image: /assets/images/partenaires/cryptolyon.png
-    - image: /assets/images/partenaires/opencylife.jpg
-- city: Tunis
-  partenaires:
-    - image: /assets/images/partenaires/elspace.png

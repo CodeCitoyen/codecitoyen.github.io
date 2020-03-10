@@ -1,0 +1,12 @@
+- city: Paris
+  organizers:
+    - image: /assets/images/organizers/latitudes.png
+    - image: /assets/images/organizers/code-for-france.png
+- city: Lyon
+  organizers:
+    - image: /assets/images/organizers/bricodeurs.png
+    - image: /assets/images/organizers/cryptolyon.png
+    - image: /assets/images/organizers/opencylife.jpg
+- city: Tunis
+  organizers:
+    - image: /assets/images/organizers/elspace.png
