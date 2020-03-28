@@ -96,14 +96,14 @@
   background-attachment: fixed; }
 
 .full.contact {
-  min-height: 60%;
+  min-height: 45%;
   background-color: #f9dc5c;
   /*background-image: url(../../images/happy.jpeg);
   background-repeat: no-repeat;
   background-position: center top;*/ }
 
 .full.city {
-  min-height: 60%;
+  min-height: 45%;
   background-image: url(../../images/villes/Lille.jpg);
   background-repeat: no-repeat;
   background-position: center 55%;

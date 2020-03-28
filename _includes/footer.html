@@ -7,10 +7,9 @@
         <li><a href="https://facebook.com/{{site.facebook}}"><i class='fa fa-facebook'></i></a></li>
         <li><a href="https://linkedin.com/company/{{site.linkedin}}"><i class='fa fa-linkedin'></i></a></li>
         <li><a href="https://github.com/{{site.github}}"><i class='fa fa-github'></i></a></li>
-        <!-- <li><a href="#"><i class='fa fa-behance'></i></a></li> -->
       </ul>
-      <p>2020 {{site.title}}.</p>
-      <p><a href="https://nuitcodecitoyen.org/fr/reglement" style="color:#444">Règlement de l'événement</a></p>
+      <p>{{ 'now' | date: "%Y" }} {{site.title}}.</p>
+      <p><a href="{{site.baseurl}}/fr/reglement" style="color:#444">Règlement de l'événement</a></p>
       <p>CC by SA 4.0</p>
       <div class="four spacing"></div>
       <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Retour en haut</a></p>
@@ -19,12 +18,12 @@
   <div class="spacing"></div>
 </div>
 
-<script src="{{ "/assets/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.superslides.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/slick.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/wow.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/jquery.validate.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/bower_components/countto/jquery.countTo.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/bower_components/appear/jquery.appear.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/dist/js/app.js" | prepend: site.baseurl }}"></script>
+<script src="{{site.baseurl}}/assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/bower_components/foundation/js/foundation.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.superslides.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/slick.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/wow.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.validate.js"></script>
+<script src="{{site.baseurl}}/assets/bower_components/countto/jquery.countTo.js"></script>
+<script src="{{site.baseurl}}/assets/bower_components/appear/jquery.appear.js"></script>
+<script src="{{site.baseurl}}/assets/dist/js/app.js"></script>
