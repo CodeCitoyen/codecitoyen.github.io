@@ -10,3 +10,15 @@
 - city: Tunis
   organizers:
     - image: /assets/images/organizers/elspace.png
+- city: Nantes
+  organizers:
+    - image: /assets/images/organizers/openlande.png
+    - image: /assets/images/organizers/lewagon-nantes.png
+- city: Marseille
+  organizers:
+    - image: /assets/images/organizers/coudeacoude.png
+    - image: /assets/images/organizers/happydev-paca.png
+- city: Rennes
+  organizers:
+    - image: /assets/images/organizers/1kubator.png
+    - image: /assets/images/organizers/foodologic.png

@@ -1,6 +1,6 @@
-- city: Paris
-  partenaires:
-    - image: /assets/images/partenaires/lll.png
 - city: Lyon
   partenaires:
     - image: /assets/images/partenaires/tuba.png
+- city: Marseille
+  partenaires:
+    - image: /assets/images/partenaires/labriquetterie.png

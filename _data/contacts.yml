@@ -14,11 +14,14 @@
   links:
     - name: Latitudes
       url: http://latitudes.cc/
-    - name: Liberté-Living Lab
-      url: http://liberte.paris/
     - name: Code for France
       url: http://codefor.fr/
 - city: Rennes
+  links:
+    - name: 1Kubator
+      url: https://www.1kubator.com/
+    - name: Foodologic
+      url: https://www.foodologic.fr/
 - city: Toulouse
 - city: Limoges
 - city: Tunis
@@ -31,3 +34,20 @@
       url: https://twitter.com/ELspace_CW/
     - name: Site EL Space
       url: http://www.elspace.org
+- city: Nantes
+  links:
+    - name: Open Lande
+    - url: https://openlande.co/
+    - name: Le Wagon
+    - url: https://www.lewagon.com/fr/nantes
+- city: Marseille
+  links:
+    - name: La Briqueterie
+    - url: https://la-briqueterie.fr
+    - name: Happy Dev
+    - url: https://www.happy-dev.fr/fr
+    - name: Coude à Coude
+    - url: https://www.facebook.com/coudeacoudemarseille
+
+
+

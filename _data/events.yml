@@ -1,18 +1,22 @@
 - city: Lyon
   location: "TUBA, 145 Cours Lafayette, 69006 Lyon, France"
 - city: Lille
-  location: ""
+  location: "A venir"
 - city: Montpellier
-  location: ""
+  location: "A venir"
 - city: Paris
-  location: "Liberté Living-Lab 9 rue d'Alexandrie, 75002 Paris"
+  location: "A venir"
 - city: Rennes
-  location: ""
+  location: "1Kubator Rennes, 2 rue de la mabilais 35000 Rennes"
 - city: Toulouse
-  location: ""
+  location: "A venir"
 - city: Tunis
-  location: ""
+  location: "A venir"
 - city: Casablanca
-  location: ""
+  location: "A venir"
 - city: Limoges
-  location: ""
+  location: "A venir"
+- city: Nantes
+  location: "A venir"
+- city: Marseille
+  location: "La Briqueterie, 19 Place Jean Jaurès 13005 Marseille"
