@@ -48,6 +48,9 @@
     - url: https://www.happy-dev.fr/fr
     - name: Coude à Coude
     - url: https://www.facebook.com/coudeacoudemarseille
-
-
-
+- city: Metz
+  links:
+    - name: Bliiida
+      url: https://www.bliiida.fr/
+    - name: Code for France
+      url: http://codefor.fr/
