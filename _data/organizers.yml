@@ -5,7 +5,7 @@
 - city: Lyon
   organizers:
     - image: /assets/images/organizers/bricodeurs.png
-    - image: /assets/images/organizers/cryptolyon.png
+#    - image: /assets/images/organizers/cryptolyon.png
     - image: /assets/images/organizers/opencylife.png
 - city: Tunis
   organizers:

@@ -1,13 +1,13 @@
 - city: Lyon
   links:
-    - name: Discutez avec nous !
-      url: https://join.slack.com/t/bricodeurs/shared_invite/enQtMjg2NDQ4MjM3NzY3LTBkMmRkZTk2Njg5YzdjNTJlNGZkZWZhZjU4ZTc3ZWIwNjBlN2YzNTI1ZjNkNjFiZWYwYzUyYjZlZTJkN2MzZDU
+#    - name: Discutez avec nous !
+#      url: https://join.slack.com/t/bricodeurs/shared_invite/enQtMjg2NDQ4MjM3NzY3LTBkMmRkZTk2Njg5YzdjNTJlNGZkZWZhZjU4ZTc3ZWIwNjBlN2YzNTI1ZjNkNjFiZWYwYzUyYjZlZTJkN2MzZDU
     - name: Les Bricodeurs
       url: https://lesbricodeurs.fr
     - name: OpenCyLife
       url: https://www.open-cy.life
-    - name: CryptoLyon
-      url: https://www.crypto-lyon.fr
+#    - name: CryptoLyon
+#      url: https://www.crypto-lyon.fr
 - city: Lille
 - city: Montpellier
 - city: Paris

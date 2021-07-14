@@ -1,12 +1,12 @@
+- name: Lille
 - name: Lyon
-  tokenProjects: shradEkMmdkHj9TEZ
-  tokenOrga: shrBq9lpBevuOfKkQ
+- name: Metz
 - name: Paris
-  tokenProjects: shrtpWZvA2Y1F41lf
-  tokenOrga : shrU8jRJe5wg5CAkI
-- name: Rennes
-- name: Tunis
+- name: Provence
+- name: Strasbourg
 - name: Toulouse
-- name: Limoges
-- name: Nantes
-- name: Marseille
+#- name: Limoges
+#- name: Nantes
+#- name: Marseille
+#- name: Rennes
+#- name: Tunis

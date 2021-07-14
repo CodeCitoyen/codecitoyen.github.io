@@ -21,16 +21,14 @@ defaults:
     layout: default
     author: Mr. Hyde
 email: jarrive@nuitcodecitoyen.org
-description: La Nuit du Code Citoyen est un hackathon d'innovation du 6 au 8 novembre
-  2020 associant défis technologiques, considérations éthiques et finalités sociales
-  en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un
-  programme d’accompagnement sur la durée et d'actions de médiation
+description: La Nuit du Code Citoyen est un hackathon d'innovation associant défis technologiques, considérations éthiques et finalités sociales en simultané dans plusieurs villes de pays francophones. L’événement est suivi d’un programme d’accompagnement sur la durée et d'actions de médiation.
 twitter: codecitoyen
 github: codecitoyen
 facebook: lesbricodeurs
 linkedin: bricodeur
 url: https://nuitcodecitoyen.org
 baseurl: ''
+dates: 16 au 17 octobre 2021
 markdown: kramdown
 sass:
   sass_dir: _sass

@@ -24,24 +24,18 @@
   children:
     - name: Lille
       path: lille
-    - name: Limoges
-      path: limoges
     - name: Lyon
       path: lyon
-    - name: Marseille
-      path: marseille
     - name: Metz
       path: metz
-    - name: Nantes
-      path: nantes
     - name: Paris
       path: paris
-    - name: Rennes
-      path: rennes
+    - name: Provence
+      path: provence
     - name: Toulouse
       path: toulouse
-    - name: Tunis
-      path: tunis
+    - name: Strasbourg
+      path: strasbourg
 
 # - name: Informations
 #   path: informations.html
@@ -60,9 +54,9 @@
     en : Contact
   path: contact
   section_id: contact
-- name:
-    fr : Projets
-    en : Projects
-  path: projects
-  section_id: projets
+#- name:
+#    fr : Projets
+#    en : Projects
+#  path: projects
+#  section_id: projets
 
