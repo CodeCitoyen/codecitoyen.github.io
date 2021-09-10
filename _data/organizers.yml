@@ -1,24 +1,13 @@
 - city: Paris
   organizers:
     - image: /assets/images/organizers/latitudes.png
-    - image: /assets/images/organizers/code-for-france.png
 - city: Lyon
   organizers:
     - image: /assets/images/organizers/bricodeurs.png
-#    - image: /assets/images/organizers/cryptolyon.png
     - image: /assets/images/organizers/opencylife.png
-- city: Tunis
-  organizers:
-    - image: /assets/images/organizers/elspace.png
-- city: Nantes
-  organizers:
-    - image: /assets/images/organizers/openlande.png
-    - image: /assets/images/organizers/lewagon-nantes.png
 - city: Marseille
   organizers:
-    - image: /assets/images/organizers/coudeacoude.png
-    - image: /assets/images/organizers/happydev-paca.png
-- city: Rennes
+    - image: /assets/images/organizers/data-for-good.png
+- city: Lille
   organizers:
-    - image: /assets/images/organizers/1kubator.png
-    - image: /assets/images/organizers/foodologic.png
+    - image: /assets/images/organizers/its-on-us.svg

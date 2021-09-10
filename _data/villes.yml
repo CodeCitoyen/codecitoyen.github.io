@@ -1,10 +1,10 @@
 - name: Lille
 - name: Lyon
-- name: Metz
 - name: Paris
 - name: Provence
-- name: Strasbourg
-- name: Toulouse
+#- name: Metz
+#- name: Strasbourg
+#- name: Toulouse
 #- name: Limoges
 #- name: Nantes
 #- name: Marseille

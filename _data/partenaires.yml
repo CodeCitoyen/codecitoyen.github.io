@@ -1,5 +1,8 @@
 - city: Lyon
   partenaires:
+    - image: /assets/images/partenaires/logo_margo.png
+- city: Lyon
+  partenaires:
     - image: /assets/images/partenaires/tuba.png
 - city: Marseille
   partenaires:

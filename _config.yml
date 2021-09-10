@@ -28,7 +28,7 @@ facebook: lesbricodeurs
 linkedin: bricodeur
 url: https://nuitcodecitoyen.org
 baseurl: ''
-dates: 16 au 17 octobre 2021
+dates: 15 au 17 octobre 2021
 markdown: kramdown
 sass:
   sass_dir: _sass

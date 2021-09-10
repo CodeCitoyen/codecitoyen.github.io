@@ -26,16 +26,16 @@
       path: lille
     - name: Lyon
       path: lyon
-    - name: Metz
-      path: metz
     - name: Paris
       path: paris
-    - name: Provence
+    - name: Marseille
       path: provence
-    - name: Toulouse
-      path: toulouse
-    - name: Strasbourg
-      path: strasbourg
+#    - name: Metz
+#      path: metz
+#    - name: Toulouse
+#      path: toulouse
+#    - name: Strasbourg
+#      path: strasbourg
 
 # - name: Informations
 #   path: informations.html
