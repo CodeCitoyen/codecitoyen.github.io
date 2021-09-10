@@ -9,46 +9,53 @@
 #    - name: CryptoLyon
 #      url: https://www.crypto-lyon.fr
 - city: Lille
-- city: Montpellier
+#- city: Montpellier
 - city: Paris
   links:
     - name: Latitudes
       url: http://latitudes.cc/
-- city: Rennes
-  links:
-    - name: 1Kubator
-      url: https://www.1kubator.com/
-    - name: Foodologic
-      url: https://www.foodologic.fr/
-- city: Toulouse
-- city: Limoges
-- city: Tunis
-  links:
-    - name: Lieu EL Space
-      url: https://goo.gl/maps/P3aBh8ZVJ2p
-    - name: Facebook
-      url: https://www.facebook.com/elspace.cw/
-    - name: Twitter
-      url: https://twitter.com/ELspace_CW/
-    - name: Site EL Space
-      url: http://www.elspace.org
-- city: Nantes
-  links:
-    - name: Open Lande
-    - url: https://openlande.co/
-    - name: Le Wagon
-    - url: https://www.lewagon.com/fr/nantes
+#- city: Rennes
+#  links:
+#    - name: 1Kubator
+#      url: https://www.1kubator.com/
+#    - name: Foodologic
+#      url: https://www.foodologic.fr/
+#- city: Toulouse
+#- city: Limoges
+#- city: Tunis
+#  links:
+#    - name: Lieu EL Space
+#      url: https://goo.gl/maps/P3aBh8ZVJ2p
+#    - name: Facebook
+#      url: https://www.facebook.com/elspace.cw/
+#    - name: Twitter
+#      url: https://twitter.com/ELspace_CW/
+#    - name: Site EL Space
+#      url: http://www.elspace.org
+#- city: Nantes
+#  links:
+#    - name: Open Lande
+#    - url: https://openlande.co/
+#    - name: Le Wagon
+#    - url: https://www.lewagon.com/fr/nantes
 - city: Marseille
   links:
+    - name: Data for Good Provence
+    - url: https://www.meetup.com/fr-FR/Data-for-Good-Provence/
+    - name: Facebook
+    - url: https://www.facebook.com/Data-for-Good-Provence-108651330916387
+    - name: Twitter
+    - url: https://twitter.com/DataforgoodP
     - name: La Briqueterie
     - url: https://la-briqueterie.fr
-    - name: Happy Dev
-    - url: https://www.happy-dev.fr/fr
-    - name: Coude à Coude
-    - url: https://www.facebook.com/coudeacoudemarseille
-- city: Metz
-  links:
-    - name: Bliiida
-      url: https://www.bliiida.fr/
-    - name: Code for France
-      url: http://codefor.fr/
+    - name: Data for Good
+    - url: https://dataforgood.fr/
+    - name: Linkedin
+    - url: https://www.linkedin.com/company/dataforgood/
+
+#- city: Metz
+#  links:
+#    - name: Bliiida
+#      url: https://www.bliiida.fr/
+#    - name: Code for France
+#      url: http://codefor.fr/

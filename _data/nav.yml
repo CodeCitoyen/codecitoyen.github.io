@@ -29,7 +29,7 @@
     - name: Paris
       path: paris
     - name: Marseille
-      path: provence
+      path: marseille
 #    - name: Metz
 #      path: metz
 #    - name: Toulouse
