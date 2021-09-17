@@ -1,6 +1,10 @@
 - city: Paris
   partenaires:
     - image: /assets/images/partenaires/logo_margo.png
+    - image: /assets/images/partenaires/logo-french-tech.png
+    - image: /assets/images/partenaires/etalab.png
+    - image: /assets/images/partenaires/my-global-village.png
+
 - city: Lyon
   partenaires:
     - image: /assets/images/partenaires/tuba.png

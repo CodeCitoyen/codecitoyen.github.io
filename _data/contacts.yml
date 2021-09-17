@@ -41,17 +41,17 @@
 - city: Marseille
   links:
     - name: Data for Good Provence
-    - url: https://www.meetup.com/fr-FR/Data-for-Good-Provence/
+      url: https://www.meetup.com/fr-FR/Data-for-Good-Provence/
     - name: Facebook
-    - url: https://www.facebook.com/Data-for-Good-Provence-108651330916387
+      url: https://www.facebook.com/Data-for-Good-Provence-108651330916387
     - name: Twitter
-    - url: https://twitter.com/DataforgoodP
+      url: https://twitter.com/DataforgoodP
     - name: La Briqueterie
-    - url: https://la-briqueterie.fr
+      url: https://la-briqueterie.fr
     - name: Data for Good
-    - url: https://dataforgood.fr/
+      url: https://dataforgood.fr/
     - name: Linkedin
-    - url: https://www.linkedin.com/company/dataforgood/
+      url: https://www.linkedin.com/company/dataforgood/
 
 #- city: Metz
 #  links:
