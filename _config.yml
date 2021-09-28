@@ -21,7 +21,7 @@ defaults:
     layout: default
     author: Mr. Hyde
 email: jarrive@nuitcodecitoyen.org
-description: La Nuit du Code Citoyen est un hackathon d'innovation associant défis technologiques, considérations éthiques et finalités sociales en simultané dans plusieurs villes de pays francophones.
+description: La Nuit du Code Citoyen est un hackathon open source d'innovation associant défis technologiques, considérations éthiques et finalités sociales en simultané dans plusieurs villes de pays francophones.
 twitter: codecitoyen
 github: codecitoyen
 facebook: lesbricodeurs
