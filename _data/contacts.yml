@@ -9,6 +9,11 @@
 #    - name: CryptoLyon
 #      url: https://www.crypto-lyon.fr
 - city: Lille
+  links:
+    - name: IT’s on us
+      url: https://www.itsonus.fr/
+    - name: Talent Garden
+      url: https://talentgarden.org/fr/
 #- city: Montpellier
 - city: Paris
   links:

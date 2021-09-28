@@ -4,6 +4,9 @@
     - image: /assets/images/partenaires/logo-french-tech.png
     - image: /assets/images/partenaires/etalab.png
     - image: /assets/images/partenaires/my-global-village.png
+    - image: /assets/images/partenaires/no-code-for-good.png
+    - image: /assets/images/partenaires/fondation-devoteam.png
+    - image: /assets/images/partenaires/systematic.png
 
 - city: Lyon
   partenaires:
