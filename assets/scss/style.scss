@@ -183,6 +183,19 @@
 .full.image-bg-1 {
   background-image: url(../../images/@stock/image-bg.jpg); }
 
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
 .overlay {
   padding: 100px 0 200px;
   background: rgba(34, 34, 34, 0.85); }
@@ -1173,6 +1186,9 @@ nav.wrapper {
   font-size: 40px !important; }
 
 .slick-slider {
+  .slick-track {
+    display: flex;
+  }
   margin-bottom: 0; }
 
 .slides.half-width img {
