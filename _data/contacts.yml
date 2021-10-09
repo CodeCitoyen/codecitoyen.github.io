@@ -12,8 +12,6 @@
   links:
     - name: IT’s on us
       url: https://www.itsonus.fr/
-    - name: Talent Garden
-      url: https://talentgarden.org/fr/
 #- city: Montpellier
 - city: Paris
   links:
@@ -51,8 +49,6 @@
       url: https://www.facebook.com/Data-for-Good-Provence-108651330916387
     - name: Twitter
       url: https://twitter.com/DataforgoodP
-    - name: La Briqueterie
-      url: https://la-briqueterie.fr
     - name: Data for Good
       url: https://dataforgood.fr/
     - name: Linkedin

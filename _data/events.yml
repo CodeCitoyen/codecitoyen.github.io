@@ -1,11 +1,12 @@
 - city: Lyon
-  location: "Campus Ynov, 27 Rue Raoul Servant, 69007 Lyon"
+  link:
+  location: "<a target='_blank' href='https://www.ynov-lyon.com/'>Campus Ynov</a>, 27 Rue Raoul Servant, 69007 Lyon"
 - city: Lille
-  location: "Talent Garden, Westfield Euralille, 2eme Etage, entre les gares Lille Flandres et Lille Europe."
+  location: "<a target='_blank' href='https://talentgarden.org/fr/event-spaces/france/lille/'>Talent Garden</a>, Westfield Euralille, 2eme Etage, entre les gares Lille Flandres et Lille Europe."
 - city: Montpellier
   location: "A venir"
 - city: Paris
-  location: "#LaPiscine, 9 rue Christophe Colomb, 75008 Paris"
+  location: "<a target='_blank' href='https://lapiscine.io/#1'>#LaPiscine</a>, 9 rue Christophe Colomb, 75008 Paris"
 - city: Rennes
   location: "1Kubator Rennes, 2 rue de la mabilais 35000 Rennes"
 - city: Toulouse
@@ -19,6 +20,6 @@
 - city: Nantes
   location: "A venir"
 - city: Marseille
-  location: "La Briqueterie, 19 Place Jean Jaurès 13005 Marseille"
+  location: "<a target='_blank' href='https://www.la-briqueterie.fr/'>La Briqueterie</a>, 19 Place Jean Jaurès 13005 Marseille"
 - city: Metz
   location: "Bliiida, 7 Avenue de Blida, 57000 Metz — FRANCE"
