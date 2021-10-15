@@ -14,3 +14,7 @@
 - city: Marseille
   partenaires:
     - image: /assets/images/partenaires/labriquetterie.png
+- city: Lille
+  partenaires:
+    - image: /assets/images/partenaires/Kiabi_logo.svg
+    - image: /assets/images/partenaires/CGI_logo.svg
